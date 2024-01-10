@@ -1,0 +1,150 @@
+{
+  "lng": "ptBR",
+  "section": {
+    "social": "Social",
+    "profile": "Perfil",
+    "education": "Educação",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "certification": "Certificações",
+    "reference": "Referências",
+    "language": "Idiomas",
+    "interest": "Interesses"
+  },
+  "profile": {
+    "profession": "Desenvolvedora Fullstack",
+    "location": "Taboão da Serra - SP, Brasil",
+    "phone": "11 9 4844-2463",
+    "summary": "Sou um desenvolvedora fullstack dinâmico e detalhista com mais de uma década de experiência no desenvolvimento e manutenção de aplicações web e desktop. Proficiente em uma variedade de linguagens de programação e frameworks, com um forte enfoque em tecnologias .NET. Habilidosa em trabalhar em ambientes de ritmo acelerado e comprometida com a entrega de soluções de alta qualidade que atendam às necessidades do negócio."
+  },
+  "education": [
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "course": "Gradução em Ciência de Dados",
+      "date": "2023 - 2025"
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "course": "Developer Thinking",
+      "date": "Nov 2023"
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "course": "Programming and Communication",
+      "date": "Set 2023"
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "course": "Math Computing Basics",
+      "date": "Mai 2023"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Stefanini Brasil",
+      "role": "Analista de desenvolvimento de Sistemas",
+      "date": "Março 2022 - Presente",
+      "description": "Estive envolvida no desenvolvimento full-stack com foco em ASP.NET Core Web API e Angular. Mantive pipelines de CI/CD no GitLab, trabalhei com banco de dados Oracle e implementei testes unitários. Utilizei metodologias ágeis Scrum."
+    },
+    {
+      "company": "Agência Molla",
+      "role": "Programador de Sistema de Informação",
+      "date": "Março 2021 - Março 2022",
+      "description": "Desenvolvi websites do zero usando Razor e JQuery. Mantive aplicações ASP MVC e banco de dados Azure SQL. Ganhei experiência com Power Automate, IIS e ambientes em nuvem."
+    },
+    {
+      "company": "Grupo Ease",
+      "role": "Analista de desenvolvimento de Sistemas",
+      "date": "Aug 2019 - Março 2021",
+      "description": "Mantive sistema ERP desktop e aplicação ASP MVC em C# e VB.NET. Desenvolvi projetos Power BI com bancos de dados PostgreSQL e Azure. Desenvolvi processo de ETL com Talend e Data Factory. Pratiquei a metodologia Kanban."
+    },
+    {
+      "company": "LTS - Soluções Tecnológicas",
+      "role": "Analista de desenvolvimento de Sistemas (Sócia)",
+      "date": "Abr 2011 - Aug 2019",
+      "description": "Desenvolvi diversas aplicações desktop usando VB.NET e gerenciei bancos de dados MS SQL e MySQL. Foquei em ferramentas de captura de dados e geração de boletos. Forneci suporte e manutenção para todas as aplicações desenvolvidas."
+    },
+    {
+      "company": "CIVS - Assessoria Sindical",
+      "role": "Analista de desenvolvimento de Sistemas",
+      "date": "Jun 2005 - Jun 2009",
+      "description": "Comecei como assistente e gradativamente assumi mais responsabilidades, incluindo análise de dados e gestão de inadimplência. Desenvolvi uma aplicação de gestão de cobranças usando VBA e MS Access, migrando posteriormente para VB.NET e banco de dados SQL."
+    }
+  ],
+  "certification": [
+    {
+      "institution": "Udemy",
+      "course": ".NET Microservices: CQRS & Event Sourcing with Kafka",
+      "date": "Abr 2023",
+      "description": "Para um novo projeto no trabalho, quis aprender mais sobre Kafka e Docker aplicados a um projeto .NET. Aprender mais sobre CQRS & Event Sourcing foi um bônus e uma ótima experiência."
+    },
+    {
+      "institution": "Fundação Vanzolini",
+      "course": "Agile Scrum Master",
+      "date": "Mar 2022",
+      "description": "Eu tinha acabado de começar a trabalhar com metodologias ágeis e queria aprender mais sobre Scrum. Este curso foi uma ótima introdução."
+    },
+    {
+      "institution": "Code With Mosh",
+      "course": "The Complete ASP.NET MVC 5 Course",
+      "date": "Jan 2022",
+      "description": "Já tinha trabalhado com ASP.NET MVC há algum tempo, mas queria aprender mais sobre o framework e como aprimorar minhas habilidades."
+    },
+    {
+      "institution": "Udemy",
+      "course": "Unit Testing for C# Developers",
+      "date": "Set 2021",
+      "description": "Nunca tinha trabalhado com testes unitários antes e queria aprender mais sobre o assunto."
+    },
+    {
+      "institution": "Impacta Tecnologia",
+      "course": "SQL 2008",
+      "date": "Dez 2010",
+      "description": "Eu tinha acabado de começar a trabalhar com o SQL Server e precisava aprender mais para poder trabalhar com o banco de dados."
+    },
+    {
+      "institution": "Impacta Tecnologia",
+      "course": "VB.NET 2005",
+      "date": "Jul 2009",
+      "description": "Eu não tinha experiência alguma com programação e precisava aprender o básico para poder desenvolver um sistema personalizado para a empresa."
+    }
+  ],
+  "reference": [
+    {
+      "name": "Alexandre Sotelo",
+      "company": "Agência Molla",
+      "phone": "11 4550-2150",
+      "email": "contato@agenciamolla.com.br​"
+    },
+    {
+      "name": "Marcelo Velluto",
+      "company": "Grupo Ease",
+      "phone": "11 3040-2355",
+      "email": "contato@grupoease.com.br​"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Português",
+      "level": "Nativo"
+    },
+    {
+      "language": "Inglês",
+      "level": "Avançado"
+    }
+  ],
+  "interests": [
+    {
+      "interest": "Pets"
+    },
+    {
+      "interest": "Escrever"
+    },
+    {
+      "interest": "Desenhar"
+    },
+    {
+      "interest": "Música"
+    }
+  ]
+}

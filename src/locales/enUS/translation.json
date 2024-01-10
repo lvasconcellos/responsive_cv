@@ -1,0 +1,176 @@
+{
+  "lng": "enUS",
+  "section": {
+    "social": "Social",
+    "profile": "Profile",
+    "education": "Education",
+    "skills": "Skills",
+    "experience": "Experience",
+    "certification": "Certification",
+    "reference": "Reference",
+    "language": "Languages",
+    "interest": "Interests"
+  },
+  "profile": {
+    "profession": "Fullstack Developer",
+    "location": "Taboão da Serra - SP, Brazil",
+    "phone": "+55 11 9 9999-9999",
+    "summary": "I am a dynamic and detail-oriented fullstack developer with over a decade of experience in developing and maintaining web and desktop applications. Proficient in a range of programming languages and frameworks with a strong focus on .NET technologies. Adept at working in fast-paced environments and committed to delivering high-quality solutions that meet business needs."
+  },
+  "education": [
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "course": "Bachelor's Degree in Data Science",
+      "date": "2023 - 2025"
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "course": "Developer Thinking",
+      "date": "Nov 2023"
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "course": "Programming and Communication",
+      "date": "Sep 2023"
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "course": "Math Computing Basics",
+      "date": "May 2023"
+    }
+  ],
+  "skills": [
+    {
+      "group": "C#, VB.NET"
+    },
+    {
+      "group": "ASP.NET MVC, ASP.NET Web API, .NET Core"
+    },
+    {
+      "group": "SQL Server, Oracle, MySQL, PostgreSQL, MongoDB"
+    },
+    {
+      "group": "HTML, CSS, JavaScript, jQuery, Bootstrap"
+    },
+    {
+      "group": "Angular, React, TypeScript"
+    },
+    {
+      "group": "Unit Testing, CI/CD (GitLab)"
+    },
+    {
+      "group": "Scrum, Kanban"
+    },
+    {
+      "group": "Power BI, ETL integration"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Stefanini Brasil",
+      "role": "Software Developer",
+      "date": "March 2022 - Present",
+      "description": "Engaged in full-stack development with a focus on ASP.NET Core Web API and Angular. Maintained GitLab CI/CD pipelines, worked with Oracle database, and implemented unit tests. Utilized agile Scrum methodologies."
+    },
+    {
+      "company": "Agência Molla",
+      "role": "Software Developer",
+      "date": "March 2021 - March 2022",
+      "description": "Developed websites from scratch using Razor and JQuery. Maintained ASP MVC applications and Azure SQL database. Gained experience with Power Automate, IIS, and cloud environments."
+    },
+    {
+      "company": "Grupo Ease",
+      "role": "Software Developer",
+      "date": "Aug 2018 - Aug 2019",
+      "description": "Maintained desktop ERP systems and ASP MVC applications in C#. Developed Power BI projects with PostgreSQL and Azure databases. Integrated ETL with Talend and Data Factory. Practiced Kanban methodology."
+    },
+    {
+      "company": "LTS - Soluções Tecnológicas",
+      "role": "Software Developer (Partner)",
+      "date": "Aug 2017 - Aug 2018",
+      "description": "Developed various desktop applications using VB.NET and managed MS SQL databases. Focused on data capture tools and billing document printouts. Provided support and maintenance for all developed applications."
+    },
+    {
+      "company": "CIVS - Assessoria Sindical",
+      "role": "Jr Software Developer",
+      "date": "June 2005 - June 2009",
+      "description": "Started as an assistant, gradually took on more responsibilities including data analysis and billing document management. Developed a collection management application using VBA and MS Access, later migrating to VB.NET and SQL database."
+    }
+  ],
+  "certification": [
+    {
+      "institution": "Udemy",
+      "course": ".NET Microservices: CQRS & Event Sourcing with Kafka",
+      "date": "Apr 2023",
+      "description": "For a new project at work, I wanted to learn more about Kafka and Docker applied to a .NET project. Learning more about CQRS & Event Sourcing was a plus and a great experience."
+    },
+    {
+      "institution": "Fundação Vanzolini",
+      "course": "Agile Scrum Master",
+      "date": "Mar 2022",
+      "description": "I had just started working with agile methodologies and wanted to learn more about Scrum. This course was a great introduction."
+    },
+    {
+      "institution": "Code With Mosh",
+      "course": "The Complete ASP.NET MVC 5 Course",
+      "date": "Jan 2022",
+      "description": "I have been working with ASP.NET MVC for a while, but I wanted to learn more about the framework and how to improve my skills."
+    },
+    {
+      "institution": "Udemy",
+      "course": "Unit Testing for C# Developers",
+      "date": "Sep 2021",
+      "description": "I had never worked with unit testing before and wanted to learn more about it."
+    },
+    {
+      "institution": "Impacta Tecnologia",
+      "course": "SQL 2008",
+      "date": "Dec 2010",
+      "description": "I had just started working with SQL Server and needed to learn more so I could work with the database."
+    },
+    {
+      "institution": "Impacta Tecnologia",
+      "course": "VB.NET 2005",
+      "date": "Jul 2009",
+      "description": "I did not have any experience with programming and needed to learn the basics to be able to developer a custom system for the company."
+    }
+  ],
+  "reference": [
+    {
+      "name": "Alexandre Sotelo",
+      "company": "Agência Molla",
+      "phone": "+55 11 4550-2150",
+      "email": "contato@agenciamolla.com.br​"
+    },
+    {
+      "name": "Marcelo Velluto",
+      "company": "Grupo Ease",
+      "phone": "+55 11 3040-2355",
+      "email": "contato@grupoease.com.br​"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Proficient"
+    }
+  ],
+  "interests": [
+    {
+      "interest": "Pets"
+    },
+    {
+      "interest": "Writting"
+    },
+    {
+      "interest": "Drawing"
+    },
+    {
+      "interest": "Music"
+    }
+  ]
+}
