@@ -15,7 +15,7 @@
     "profession": "Fullstack Developer",
     "location": "Taboão da Serra - SP, Brazil",
     "phone": "+55 11 9 9999-9999",
-    "summary": "I am a dynamic and detail-oriented fullstack developer with over a decade of experience in developing and maintaining web and desktop applications. Proficient in a range of programming languages and frameworks with a strong focus on .NET technologies. Adept at working in fast-paced environments and committed to delivering high-quality solutions that meet business needs."
+    "summary": "I am a dynamic and detail-oriented full-stack developer with over a decade of experience in developing and maintaining web and desktop applications. Proficient in a range of programming languages and frameworks with a strong focus on .NET technologies. Adept at working in fast-paced environments and committed to delivering high-quality solutions that meet business needs."
   },
   "education": [
     {
@@ -132,7 +132,7 @@
       "institution": "Impacta Tecnologia",
       "course": "VB.NET 2005",
       "date": "Jul 2009",
-      "description": "I did not have any experience with programming and needed to learn the basics to be able to developer a custom system for the company."
+      "description": "I did not have any experience with programming and needed to learn the basics to be able to develop a custom system for the company."
     }
   ],
   "reference": [
@@ -164,7 +164,7 @@
       "interest": "Pets"
     },
     {
-      "interest": "Writting"
+      "interest": "Writing"
     },
     {
       "interest": "Drawing"
