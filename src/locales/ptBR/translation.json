@@ -12,42 +12,66 @@
   },
   "menu": [
     {
+<<<<<<< HEAD
       "id": "home",
+=======
+>>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
       "item": "Início",
       "icon": "bx bx-door-open"
     },
     {
+<<<<<<< HEAD
       "id": "profile",
+=======
+>>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
       "item": "Perfil",
       "icon": "bx bxs-user-detail"
     },
     {
+<<<<<<< HEAD
       "id": "education",
+=======
+>>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
       "item": "Educação",
       "icon": "bx bxs-book-open"
     },
     {
+<<<<<<< HEAD
       "id": "skills",
+=======
+>>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
       "item": "Habilidades",
       "icon": "bx bx-receipt"
     },
     {
+<<<<<<< HEAD
       "id": "experience",
+=======
+>>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
       "item": "Experiência",
       "icon": "bx bx-desktop"
     },
     {
+<<<<<<< HEAD
       "id": "certification",
+=======
+>>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
       "item": "Certificações",
       "icon": "bx bx-award"
     },
     {
+<<<<<<< HEAD
       "id": "languages",
+=======
+>>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
       "item": "Idiomas",
       "icon": "bx bx-comment-dots"
     },
     {
+<<<<<<< HEAD
       "id": "interests",
+=======
+>>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
       "item": "Interesses",
       "icon": "bx bx-like"
     }
