@@ -12,36 +12,58 @@
     "interest": "Interests"
   },
   "profile": {
+    "name": "Leticia Vasconcellos",
     "profession": "Full stack Developer",
     "location": "Taboão da Serra - SP, Brazil",
-    "phone": "+55 11 9 9999-9999",
-    "summary": "I am a dynamic and detail-oriented full-stack developer with over a decade of experience in developing and maintaining web and desktop applications. Proficient in a range of programming languages and frameworks with a strong focus on .NET technologies. Adept at working in fast-paced environments and committed to delivering high-quality solutions that meet business needs."
+    "location_icon": "bx bxs-map-pin",
+    "email": "leticiavasconcellos@yahoo.com",
+    "email_icon": "bx bx-envelope",
+    "phone": "+55 11 9 4844-2463",
+    "phone_icon": "bx bx-phone",
+    "summary": "I'm a Full-Stack Developer with over 15 years of experience, focusing on .NET and JavaScript frameworks. My career has been dedicated to building both web and desktop applications, with a strong foundation in database management.| I value the principles of Agile and Scrum, which guide my approach to development – practical, efficient, and always evolving. Continual learning and adapting to new technologies are integral parts of my professional growth.| My objective is to develop solutions that are not only effective but also user-friendly. In collaboration with teams, I aim to contribute to projects that make a real difference."
   },
-  "education": [
+  "social": [
     {
-      "institution": "Descomplica Faculdade Digital",
-      "course": "Bachelor's Degree in Data Science",
-      "date": "2023 - 2025"
+      "icon": "bx bxl-linkedin-square",
+      "url": "https://www.linkedin.com/in/leticiavasconcellos",
+      "handler": "@leticiavasconcellos"
     },
     {
-      "institution": "Descomplica Faculdade Digital",
-      "course": "Developer Thinking",
-      "date": "Nov 2023"
+      "icon": "bx bxl-github",
+      "url": "https://github.com/lvasconcellos",
+      "handler": "@lvasconcellos"
     },
     {
-      "institution": "Descomplica Faculdade Digital",
-      "course": "Programming and Communication",
-      "date": "Sep 2023"
-    },
-    {
-      "institution": "Descomplica Faculdade Digital",
-      "course": "Math Computing Basics",
-      "date": "May 2023"
+      "icon": "bx bxl-discord-alt",
+      "url": "https://discord.com/users/717408919714267199",
+      "handler": "@lvasconcellos"
     }
   ],
+  "education": {
+    "institution": "Descomplica Faculdade Digital",
+    "course": "Bachelor’s degree in data science",
+    "date": "2023 - 2025",
+    "details": [
+      {
+        "studies": "Business Communication • Applications and Systems Development • Design Thinking and Agile Methodologies",
+        "course": "Developer Thinking",
+        "date": "Nov 2023"
+      },
+      {
+        "studies": "Coaching and Career Planning • Integrative Practice for Data Intelligence",
+        "course": "Programming and Communication",
+        "date": "Sep 2023"
+      },
+      {
+        "studies": "Computer Architecture • Applied Differential Equations",
+        "course": "Math Computing Basics",
+        "date": "May 2023"
+      }
+    ]
+  },
   "skills": [
     {
-      "group": "C#, VB.NET"
+      "group": "C# , VB.NET"
     },
     {
       "group": "ASP.NET MVC, ASP.NET Web API, .NET Core"
@@ -62,7 +84,7 @@
       "group": "Scrum, Kanban"
     },
     {
-      "group": "Power BI, ETL integration"
+      "group": "Power BI, ETL (Talend, Data Factory)"
     }
   ],
   "experience": [
@@ -70,31 +92,31 @@
       "company": "Stefanini Brasil",
       "role": "Software Developer",
       "date": "March 2022 - Present",
-      "description": "Engaged in full-stack development with a focus on ASP.NET Core Web API and Angular. Maintained GitLab CI/CD pipelines, worked with Oracle database, and implemented unit tests. Utilized agile Scrum methodologies."
+      "description": "Engaged in full-stack development, specializing in .NET and Angular, and employing TypeScript for enhanced Angular projects.| Acquired experience with advanced message queue technologies, such as RabbitMQ and MassTransit, for efficient data handling and service communication.| Utilized MediatR for improved communication patterns in REST API developments, contributing to more efficient and maintainable code.| Participated in DevOps activities, including CI/CD pipeline maintenance and vulnerability scanning, to uphold high standards of application security and reliability.| Managed Oracle databases, focusing on optimizing data structures and query performance, thereby improving system functionality and efficiency.| Introduced to Agile Scrum methodology, enhancing my project management skills and team collaboration.| Utilized TFS Dashboard and Jira for efficient project tracking and management, streamlining the workflow and task organization.| Maintained project documentation using Confluence, ensuring that project knowledge was well-organized and accessible to the team."
     },
     {
       "company": "Agência Molla",
       "role": "Software Developer",
       "date": "March 2021 - March 2022",
-      "description": "Developed websites from scratch using Razor and JQuery. Maintained ASP MVC applications and Azure SQL database. Gained experience with Power Automate, IIS, and cloud environments."
+      "description": "Developed multiple websites employing Razor, JavaScript, C#, MS SQL, and also worked with jQuery. These projects improved my front-end development capabilities and reinforced my back-end skills.| Maintained and upgraded ASP MVC applications, gaining deeper insights into modernizing and enhancing legacy systems.| Acquired practical experience with cloud technologies, IIS, and automation through Power Automate, adding to my versatility as a developer."
     },
     {
       "company": "Grupo Ease",
       "role": "Software Developer",
       "date": "Jul 2019 - March 2021",
-      "description": "Maintained desktop ERP systems and ASP MVC applications in C#. Developed Power BI projects with PostgreSQL and Azure databases. Integrated ETL with Talend and Data Factory. Practiced Kanban methodology."
+      "description": "Enhanced desktop ERP and ASP MVC systems, focusing on improving user interface and functionality. This role advanced my system analysis and design capabilities.| Gained valuable experience in ETL processes with PostgreSQL and Azure databases, integrating Talend and Data Factory, which enhanced my data processing skills. | First introduction to working in a team environment and was introduced to the Kanban methodology, which greatly improved my project management and collaborative skills."
     },
     {
       "company": "LTS - Soluções Tecnológicas",
       "role": "Software Developer",
-      "date": "Abr 2011 - Jul 2019",
-      "description": "Developed various desktop applications using VB.NET and managed MS SQL databases. Focused on data capture tools and billing document printouts. Provided support and maintenance for all developed applications."
+      "date": "Apr 2011 - Jul 2019",
+      "description": "Led the development of 'Consulte', a desktop application for automated data capture and validation, refining my application development and problem-solving skills.| Played a key role in providing user support and training, enhancing my ability to communicate technical concepts effectively to non-technical users.| Developed and maintained various desktop applications using VB.NET, balancing user needs with technical requirements to deliver practical solutions.| Gained extensive experience in web technologies, including ASP and HTML, and database management with MS SQL and MySQL.| Involved in installation and setup activities for WinForms and ASP WebForms projects, ensuring smooth deployment and functionality."
     },
     {
       "company": "CIVS - Assessoria Sindical",
       "role": "Jr Software Developer",
       "date": "June 2005 - Ago 2010",
-      "description": "Started as an assistant, gradually took on more responsibilities including data analysis and billing document management. Developed a collection management application using VBA and MS Access, later migrating to VB.NET and SQL database."
+      "description": "Transitioned from an office assistant to a developer role, addressing the company's need for a customized system, marking my initial step into software development.| Learned to work with MS Office, mastering advanced features in Excel and Access, which played a crucial role in my early development tasks.| Gained skills in analyzing and validating data, understanding the importance of accuracy and integrity in software solutions.| Developed foundational skills in software development, including migrating the custom system from Access VBA to VB.NET and MS SQL, laying the groundwork for my future career in technology."
     }
   ],
   "certification": [
@@ -102,37 +124,37 @@
       "institution": "Udemy",
       "course": ".NET Microservices: CQRS & Event Sourcing with Kafka",
       "date": "Apr 2023",
-      "description": "For a new project at work, I wanted to learn more about Kafka and Docker applied to a .NET project. Learning more about CQRS & Event Sourcing was a plus and a great experience."
+      "description": "Focused on learning Kafka and Docker within a .NET framework, gaining insights into CQRS and Event Sourcing, and enhancing my understanding of microservices architecture."
     },
     {
       "institution": "Fundação Vanzolini",
       "course": "Agile Scrum Master",
       "date": "Mar 2022",
-      "description": "I had just started working with agile methodologies and wanted to learn more about Scrum. This course was a great introduction."
+      "description": "Acquired foundational knowledge and practical skills in Scrum methodologies, which complemented my experience with agile practices in software development."
     },
     {
       "institution": "Code With Mosh",
       "course": "The Complete ASP.NET MVC 5 Course",
       "date": "Jan 2022",
-      "description": "I have been working with ASP.NET MVC for a while, but I wanted to learn more about the framework and how to improve my skills."
+      "description": "Deepened my expertise in ASP.NET MVC, focusing on advanced features and best practices to enhance web application development skills."
     },
     {
       "institution": "Udemy",
-      "course": "Unit Testing for C# Developers",
+      "course": "Unit Testing for C#  Developers",
       "date": "Sep 2021",
-      "description": "I had never worked with unit testing before and wanted to learn more about it."
+      "description": "Gained comprehensive knowledge in unit testing for C#, emphasizing the importance of testing in ensuring code quality and application reliability."
     },
     {
       "institution": "Impacta Tecnologia",
       "course": "SQL 2008",
       "date": "Dec 2010",
-      "description": "I had just started working with SQL Server and needed to learn more so I could work with the database."
+      "description": "Strengthened my SQL Server skills, focusing on fundamental concepts and practical applications in database management."
     },
     {
       "institution": "Impacta Tecnologia",
       "course": "VB.NET 2005",
       "date": "Jul 2009",
-      "description": "I did not have any experience with programming and needed to learn the basics to be able to develop a custom system for the company."
+      "description": "Entered the realm of programming with VB.NET, building a foundational understanding of programming concepts and application development."
     }
   ],
   "reference": [
@@ -161,15 +183,19 @@
   ],
   "interests": [
     {
+      "icon": "bx bxs-cat",
       "interest": "Pets"
     },
     {
+      "icon": "bx bxs-book",
       "interest": "Writing"
     },
     {
+      "icon": "bx bxs-paint",
       "interest": "Drawing"
     },
     {
+      "icon": "bx bxs-music",
       "interest": "Music"
     }
   ]

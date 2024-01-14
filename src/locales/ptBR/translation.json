@@ -12,31 +12,79 @@
     "interest": "Interesses"
   },
   "profile": {
+    "name": "Leticia Vasconcellos",
     "profession": "Desenvolvedora Full stack",
     "location": "Taboão da Serra - SP, Brasil",
+    "location_icon": "bx bxs-map-pin",
+    "email": "leticiavasconcellos@yahoo.com",
+    "email_icon": "bx bx-envelope",
+    "phone_icon": "bx bx-phone",
     "phone": "11 9 4844-2463",
-    "summary": "Sou uma desenvolvedora full-stack dinâmico e detalhista com mais de uma década de experiência no desenvolvimento e manutenção de aplicações web e desktop. Proficiente em uma variedade de linguagens de programação e frameworks, com um forte enfoque em tecnologias .NET. Habilidosa em trabalhar em ambientes de ritmo acelerado e comprometida com a entrega de soluções de alta qualidade que atendam às necessidades do negócio."
+    "summary": "Sou uma Desenvolvedora Full-Stack com mais de 15 anos de experiência, focando em frameworks .NET e JavaScript. Minha carreira tem sido dedicada à construção de aplicações web e desktop, com uma sólida base em gerenciamento de banco de dados.| Valorizo os princípios do Agile e Scrum, que orientam minha abordagem no desenvolvimento – prática, eficiente e sempre em evolução. A aprendizagem contínua e adaptação a novas tecnologias são partes integrantes do meu crescimento profissional.| Meu objetivo é desenvolver soluções que sejam não apenas eficazes, mas também amigáveis ao usuário. Em colaboração com equipes, busco contribuir em projetos que realmente façam a diferença."
   },
-  "education": [
+  "social": [
     {
-      "institution": "Descomplica Faculdade Digital",
-      "course": "Gradução em Ciência de Dados",
-      "date": "2023 - 2025"
+      "icon": "bx bxl-linkedin-square",
+      "url": "https://www.linkedin.com/in/leticiavasconcellos",
+      "handler": "@leticiavasconcellos"
     },
     {
-      "institution": "Descomplica Faculdade Digital",
-      "course": "Developer Thinking",
-      "date": "Nov 2023"
+      "icon": "bx bxl-github",
+      "url": "https://github.com/lvasconcellos",
+      "handler": "@lvasconcellos"
     },
     {
-      "institution": "Descomplica Faculdade Digital",
-      "course": "Programming and Communication",
-      "date": "Set 2023"
+      "icon": "bx bxl-discord-alt",
+      "url": "https://discord.com/users/717408919714267199",
+      "handler": "@lvasconcellos"
+    }
+  ],
+  "education": {
+    "institution": "Descomplica Faculdade Digital",
+    "course": "Gradução em Ciência de Dados",
+    "date": "2023 - 2025",
+    "details": [
+      {
+        "studies": "Comunicação Empresarial • Criação de Aplicações e Sistemas • Design Thinking e Metodologias Ágeis",
+        "course": "Developer Thinking",
+        "date": "Nov 2023"
+      },
+      {
+        "studies": "Coaching e Planejamento de Carreira • Prática Integradora para Dados Inteligentes",
+        "course": "Programming and Communication",
+        "date": "Set 2023"
+      },
+      {
+        "studies": "Arquitetura de Computadores • Matemática Diferencial Aplicada",
+        "course": "Math Computing Basics",
+        "date": "Mai 2023"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "group": "C# , VB.NET"
     },
     {
-      "institution": "Descomplica Faculdade Digital",
-      "course": "Math Computing Basics",
-      "date": "Mai 2023"
+      "group": "ASP.NET MVC, ASP.NET Web API, .NET Core"
+    },
+    {
+      "group": "SQL Server, Oracle, MySQL, PostgreSQL, MongoDB"
+    },
+    {
+      "group": "HTML, CSS, JavaScript, jQuery, Bootstrap"
+    },
+    {
+      "group": "Angular, React, TypeScript"
+    },
+    {
+      "group": "Teste Unitário, CI/CD (GitLab)"
+    },
+    {
+      "group": "Scrum, Kanban"
+    },
+    {
+      "group": "Power BI, ETL (Talend, Data Factory)"
     }
   ],
   "experience": [
@@ -44,31 +92,31 @@
       "company": "Stefanini Brasil",
       "role": "Analista de desenvolvimento de Sistemas",
       "date": "Março 2022 - Presente",
-      "description": "Estive envolvida no desenvolvimento full-stack com foco em ASP.NET Core Web API e Angular. Mantive pipelines de CI/CD no GitLab, trabalhei com banco de dados Oracle e implementei testes unitários. Utilizei metodologias ágeis Scrum."
+      "description": "Estive envolvida em desenvolvimento full-stack, me especializando em .NET e Angular, e usando TypeScript para aprimorar projetos Angular.| Adquiri experiência com tecnologias de mensageria como RabbitMQ e MassTransit para manipulação eficiente de dados e comunicação de serviços.| Utilizei MediatR para melhorar padrões de comunicação em desenvolvimentos de API REST.| Participei de atividades de DevOps, incluindo manutenção de pipelines CI/CD e análise de vulnerabilidades.| Gerenciei bancos de dados Oracle, focando na otimização de estruturas de dados e desempenho de consultas."
     },
     {
       "company": "Agência Molla",
       "role": "Programador de Sistema de Informação",
       "date": "Março 2021 - Março 2022",
-      "description": "Desenvolvi websites do zero usando Razor e JQuery. Mantive aplicações ASP MVC e banco de dados Azure SQL. Ganhei experiência com Power Automate, IIS e ambientes em nuvem."
+      "description": "Desenvolvi websites empregando Razor, JavaScript, C# e MS SQL, e também trabalhei com jQuery.| Melhorei aplicações ASP MVC legadas e explorei tecnologias de nuvem e automação com Power Automate, melhorando minhas habilidades de front-end e back-end."
     },
     {
       "company": "Grupo Ease",
       "role": "Analista de desenvolvimento de Sistemas",
       "date": "Ago 2019 - Março 2021",
-      "description": "Mantive sistema ERP desktop e aplicação ASP MVC em C# e VB.NET. Desenvolvi projetos Power BI com bancos de dados PostgreSQL e Azure. Desenvolvi processo de ETL com Talend e Data Factory. Pratiquei a metodologia Kanban."
+      "description": "Aprimorei sistemas ERP e ASP MVC, focando em UI e funcionalidade.| Ganhei experiência valiosa em processos ETL com PostgreSQL e Azure, integrando Talend e Data Factory.| Tive primeira experiência com trabalho em equipe técnica e à metodologia Kanban."
     },
     {
       "company": "LTS - Soluções Tecnológicas",
-      "role": "Analista de desenvolvimento de Sistemas (Sócia)",
+      "role": "Analista de desenvolvimento de Sistemas",
       "date": "Abr 2011 - Ago 2019",
-      "description": "Desenvolvi diversas aplicações desktop usando VB.NET e gerenciei bancos de dados MS SQL e MySQL. Foquei em ferramentas de captura de dados e geração de boletos. Forneci suporte e manutenção para todas as aplicações desenvolvidas."
+      "description": "Liderei o desenvolvimento de 'Consulte', uma aplicação desktop focada na captura e manipulação automatizada de dados, refinando minhas habilidades em desenvolvimento de aplicações e resolução de problemas.| Fui responsável por fornecer suporte e treinamento aos usuários, melhorando minha habilidade de comunicar conceitos técnicos para usuários não técnicos.| Desenvolvi e mantive várias aplicações desktop utilizando VB.NET, equilibrando as necessidades dos usuários com requisitos técnicos para entregar soluções práticas.| Adquiri experiência em tecnologias web, incluindo ASP e HTML, e gestão de banco de dados com MS SQL e MySQL.| Estive envolvida nas atividades de instalação e configuração de projetos WinForms e ASP WebForms, garantindo implementações bem-sucedidas e funcionais."
     },
     {
       "company": "CIVS - Assessoria Sindical",
       "role": "Analista de desenvolvimento de Sistemas",
       "date": "Jun 2005 - Jun 2009",
-      "description": "Comecei como assistente e gradativamente assumi mais responsabilidades, incluindo análise de dados e gestão de inadimplência. Desenvolvi uma aplicação de gestão de cobranças usando VBA e MS Access, migrando posteriormente para VB.NET e banco de dados SQL."
+      "description": "Evolui de assistente de escritório para desenvolvedora, atendendo à necessidade da empresa por um sistema personalizado. Isso marcou meu primeiro passo no desenvolvimento de software.| Aprendi a trabalhar com o MS Office, dominando recursos avançados no Excel e Access, essenciais nas minhas primeiras tarefas de desenvolvimento.| Adquiri habilidades em analisar e validar dados, compreendendo a importância da precisão e integridade em soluções de software.| Desenvolvi habilidades fundamentais em desenvolvimento de software, incluindo a migração do sistema personalizado de Access VBA para VB.NET e MS SQL, estabelecendo a base para minha carreira futura em tecnologia."
     }
   ],
   "certification": [
@@ -76,37 +124,37 @@
       "institution": "Udemy",
       "course": ".NET Microservices: CQRS & Event Sourcing with Kafka",
       "date": "Abr 2023",
-      "description": "Para um novo projeto no trabalho, quis aprender mais sobre Kafka e Docker aplicados a um projeto .NET. Aprender mais sobre CQRS & Event Sourcing foi um bônus e uma ótima experiência."
+      "description": "Foquei em aprender Kafka e Docker dentro de um framework .NET, obtive insights sobre CQRS e Event Sourcing, aprimorando minha compreensão de arquitetura de microsserviços."
     },
     {
       "institution": "Fundação Vanzolini",
       "course": "Agile Scrum Master",
       "date": "Mar 2022",
-      "description": "Eu tinha acabado de começar a trabalhar com metodologias ágeis e queria aprender mais sobre Scrum. Este curso foi uma ótima introdução."
+      "description": "Adquiri conhecimento fundamental e habilidades práticas em metodologias Scrum, complementando minha experiência com práticas ágeis em desenvolvimento de software."
     },
     {
       "institution": "Code With Mosh",
       "course": "The Complete ASP.NET MVC 5 Course",
       "date": "Jan 2022",
-      "description": "Já tinha trabalhado com ASP.NET MVC há algum tempo, mas queria aprender mais sobre o framework e como aprimorar minhas habilidades."
+      "description": "Aprofundei minha expertise em ASP.NET MVC, focando em recursos avançados e melhores práticas para aprimorar habilidades de desenvolvimento de aplicações web."
     },
     {
       "institution": "Udemy",
       "course": "Unit Testing for C# Developers",
       "date": "Set 2021",
-      "description": "Nunca tinha trabalhado com testes unitários antes e queria aprender mais sobre o assunto."
+      "description": "Ganhei conhecimento abrangente em testes unitários para C#, enfatizando a importância dos testes para garantir a qualidade do código e a confiabilidade da aplicação."
     },
     {
       "institution": "Impacta Tecnologia",
       "course": "SQL 2008",
       "date": "Dez 2010",
-      "description": "Eu tinha acabado de começar a trabalhar com o SQL Server e precisava aprender mais para poder trabalhar com o banco de dados."
+      "description": "Fortaleci minhas habilidades em SQL Server, focando em conceitos fundamentais e aplicações práticas em gerenciamento de banco de dados."
     },
     {
       "institution": "Impacta Tecnologia",
       "course": "VB.NET 2005",
       "date": "Jul 2009",
-      "description": "Eu não tinha experiência alguma com programação e precisava aprender o básico para poder desenvolver um sistema personalizado para a empresa."
+      "description": "Ingressei no mundo da programação com VB.NET, construindo um entendimento fundamental dos conceitos de programação e desenvolvimento de aplicativos."
     }
   ],
   "reference": [
@@ -130,20 +178,24 @@
     },
     {
       "language": "Inglês",
-      "level": "Avançado"
+      "level": "Proficiente"
     }
   ],
   "interests": [
     {
+      "icon": "bx bxs-cat",
       "interest": "Pets"
     },
     {
+      "icon": "bx bxs-book",
       "interest": "Escrever"
     },
     {
+      "icon": "bx bxs-paint",
       "interest": "Desenhar"
     },
     {
+      "icon": "bx bxs-music",
       "interest": "Música"
     }
   ]
