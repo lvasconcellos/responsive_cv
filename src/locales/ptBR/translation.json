@@ -12,10 +12,10 @@
     "interest": "Interesses"
   },
   "profile": {
-    "profession": "Desenvolvedora Fullstack",
+    "profession": "Desenvolvedora Full stack",
     "location": "Taboão da Serra - SP, Brasil",
     "phone": "11 9 4844-2463",
-    "summary": "Sou um desenvolvedora fullstack dinâmico e detalhista com mais de uma década de experiência no desenvolvimento e manutenção de aplicações web e desktop. Proficiente em uma variedade de linguagens de programação e frameworks, com um forte enfoque em tecnologias .NET. Habilidosa em trabalhar em ambientes de ritmo acelerado e comprometida com a entrega de soluções de alta qualidade que atendam às necessidades do negócio."
+    "summary": "Sou uma desenvolvedora full-stack dinâmico e detalhista com mais de uma década de experiência no desenvolvimento e manutenção de aplicações web e desktop. Proficiente em uma variedade de linguagens de programação e frameworks, com um forte enfoque em tecnologias .NET. Habilidosa em trabalhar em ambientes de ritmo acelerado e comprometida com a entrega de soluções de alta qualidade que atendam às necessidades do negócio."
   },
   "education": [
     {
@@ -55,13 +55,13 @@
     {
       "company": "Grupo Ease",
       "role": "Analista de desenvolvimento de Sistemas",
-      "date": "Aug 2019 - Março 2021",
+      "date": "Ago 2019 - Março 2021",
       "description": "Mantive sistema ERP desktop e aplicação ASP MVC em C# e VB.NET. Desenvolvi projetos Power BI com bancos de dados PostgreSQL e Azure. Desenvolvi processo de ETL com Talend e Data Factory. Pratiquei a metodologia Kanban."
     },
     {
       "company": "LTS - Soluções Tecnológicas",
       "role": "Analista de desenvolvimento de Sistemas (Sócia)",
-      "date": "Abr 2011 - Aug 2019",
+      "date": "Abr 2011 - Ago 2019",
       "description": "Desenvolvi diversas aplicações desktop usando VB.NET e gerenciei bancos de dados MS SQL e MySQL. Foquei em ferramentas de captura de dados e geração de boletos. Forneci suporte e manutenção para todas as aplicações desenvolvidas."
     },
     {

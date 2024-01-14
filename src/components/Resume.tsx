@@ -1,8 +1,18 @@
 ﻿import { useTranslation } from "react-i18next";
 import profileImg from "../assets/img/profile.png";
+import { useEffect } from "react";
 
 function Resume() {
   const [locale, i18n] = useTranslation("global", { useSuspense: false });
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const scrollTop = document.getElementById("scroll-top");
+      if (scrollY >= 560) scrollTop?.classList.add("show-scroll");
+      else scrollTop?.classList.remove("show-scroll");
+    });
+  }, []);
+
   const handleLanguageChange = (lang: string) => {
     i18n.changeLanguage(lang);
   };
@@ -19,12 +29,9 @@ function Resume() {
   const handleThemeChange = () => {
     const darkTheme = "dark-theme";
     const iconTheme = "bx-sun";
-
-    // Previously selected topic (if user selected)
     const selectedTheme = localStorage.getItem("selected-theme");
     const selectedIcon = localStorage.getItem("selected-icon");
 
-    // We obtain the current theme that the interface has by validating the dark-theme class
     const getCurrentTheme = () =>
       document.body.classList.contains(darkTheme) ? "dark" : "light";
     const getCurrentIcon = () =>
@@ -32,9 +39,7 @@ function Resume() {
         ? "bx-moon"
         : "bx-sun";
 
-    // We validate if the user previously chose a topic
     if (selectedTheme) {
-      // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
       document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
         darkTheme
       );
@@ -45,9 +50,12 @@ function Resume() {
 
     document.body.classList.toggle(darkTheme);
     document.getElementById("theme-button")?.classList.toggle(iconTheme);
-    // We save the theme and the current icon that the user chose
     localStorage.setItem("selected-theme", getCurrentTheme());
     localStorage.setItem("selected-icon", getCurrentIcon());
+  };
+
+  const handleShowMenu = (toggleId: string, navId: string) => {
+    document.getElementById(navId)?.classList.toggle(toggleId);
   };
 
   return (
@@ -102,7 +110,11 @@ function Resume() {
             </ul>
           </div>
 
-          <div className="nav__toggle" id="nav-toggle">
+          <div
+            className="nav__toggle"
+            id="nav-toggle"
+            onClick={() => handleShowMenu("nav-toggle", "nav-menu")}
+          >
             <i className="bx bx-grid-alt"></i>
           </div>
         </nav>
@@ -613,6 +625,9 @@ function Resume() {
           </div>
         </div>
       </main>
+      <a href="#" className="scrolltop" id="scroll-top">
+        <i className="bx bx-up-arrow-alt scrolltop__icon"></i>
+      </a>
     </div>
   );
 }
