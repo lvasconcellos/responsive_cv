@@ -1,10 +1,11 @@
+import { TFunction } from "i18next";
 import profileImg from "../../assets/img/profile.png";
 
 const ProfileSection = ({
   locale,
   handleLanguageChange,
 }: {
-  locale: (key: string) => string;
+  locale: TFunction<"global">;
   handleLanguageChange: (lang: string) => void;
 }) => {
   const handleDownloadPDF = () => {
