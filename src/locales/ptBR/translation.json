@@ -7,10 +7,51 @@
     "skills": "Habilidades",
     "experience": "Experiência",
     "certification": "Certificações",
-    "reference": "Referências",
     "language": "Idiomas",
     "interest": "Interesses"
   },
+  "menu": [
+    {
+      "id": "home",
+      "item": "Início",
+      "icon": "bx bx-door-open"
+    },
+    {
+      "id": "profile",
+      "item": "Perfil",
+      "icon": "bx bxs-user-detail"
+    },
+    {
+      "id": "education",
+      "item": "Educação",
+      "icon": "bx bxs-book-open"
+    },
+    {
+      "id": "skills",
+      "item": "Habilidades",
+      "icon": "bx bx-receipt"
+    },
+    {
+      "id": "experience",
+      "item": "Experiência",
+      "icon": "bx bx-desktop"
+    },
+    {
+      "id": "certification",
+      "item": "Certificações",
+      "icon": "bx bx-award"
+    },
+    {
+      "id": "languages",
+      "item": "Idiomas",
+      "icon": "bx bx-comment-dots"
+    },
+    {
+      "id": "interests",
+      "item": "Interesses",
+      "icon": "bx bx-like"
+    }
+  ],
   "profile": {
     "name": "Leticia Vasconcellos",
     "profession": "Desenvolvedora Full stack",
@@ -155,20 +196,6 @@
       "course": "VB.NET 2005",
       "date": "Jul 2009",
       "description": "Ingressei no mundo da programação com VB.NET, construindo um entendimento fundamental dos conceitos de programação e desenvolvimento de aplicativos."
-    }
-  ],
-  "reference": [
-    {
-      "name": "Alexandre Sotelo",
-      "company": "Agência Molla",
-      "phone": "11 4550-2150",
-      "email": "contato@agenciamolla.com.br​"
-    },
-    {
-      "name": "Marcelo Velluto",
-      "company": "Grupo Ease",
-      "phone": "11 3040-2355",
-      "email": "contato@grupoease.com.br​"
     }
   ],
   "languages": [

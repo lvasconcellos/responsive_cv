@@ -6,7 +6,7 @@ const CertificationSection = ({ locale }: { locale: TFunction<"global"> }) => {
   );
 
   return (
-    <section className="certificate section" id="certificates">
+    <section className="certificate section" id="certification">
       <h2 className="section-title">{locale("section.certification")}</h2>
       <div className="certificates__container bd-grid">
         {certifications.map((item, i) => {

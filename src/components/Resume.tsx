@@ -1,9 +1,14 @@
 ﻿import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Header from "./Header";
 import MainContent from "./MainContent";
 import ScrollTopButton from "./ScrollTopButton";
 
 function Resume() {
+  const [locale, i18n, ready] = useTranslation("global", {
+    useSuspense: false,
+  });
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       const scrollTop = document.getElementById("scroll-top");
@@ -12,10 +17,19 @@ function Resume() {
     });
   }, []);
 
+  const handleLanguageChange = (lang: string) => {
+    i18n.changeLanguage(lang);
+  };
+
+  if (!ready) return "...";
+
   return (
     <div>
-      <Header />
-      <MainContent />
+      <Header locale={locale} />
+      <MainContent
+        locale={locale}
+        handleLanguageChange={handleLanguageChange}
+      />
       <ScrollTopButton />
     </div>
   );

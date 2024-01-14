@@ -279,6 +279,7 @@ img {
 
 .nav__item {
   text-align: center;
+  text-transform: capitalize;
 }
 
 .nav__list {

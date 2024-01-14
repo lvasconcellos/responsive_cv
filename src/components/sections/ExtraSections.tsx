@@ -10,7 +10,7 @@ const ExtraSections = ({ locale }: { locale: TFunction<"global"> }) => {
 
   return (
     <>
-      <section className="languages section">
+      <section className="languages section" id="languages">
         <h2 className="section-title">{locale("section.language")}</h2>
 
         <div className="languages__container bd-grid">
@@ -28,7 +28,7 @@ const ExtraSections = ({ locale }: { locale: TFunction<"global"> }) => {
         </div>
       </section>
 
-      <section className="interests section">
+      <section className="interests section" id="interests">
         <h2 className="section-title">{locale("section.interest")}</h2>
 
         <div className="interests__container bd-grid">
