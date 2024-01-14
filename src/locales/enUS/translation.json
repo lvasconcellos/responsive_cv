@@ -12,7 +12,6 @@
   },
   "menu": [
     {
-<<<<<<< HEAD
       "id": "home",
       "item": "home",
       "icon": "bx bx-door-open"
@@ -50,37 +49,6 @@
     {
       "id": "interests",
       "item": "interests",
-=======
-      "item": "Home",
-      "icon": "bx bx-door-open"
-    },
-    {
-      "item": "Profile",
-      "icon": "bx bxs-user-detail"
-    },
-    {
-      "item": "Education",
-      "icon": "bx bxs-book-open"
-    },
-    {
-      "item": "Skills",
-      "icon": "bx bx-receipt"
-    },
-    {
-      "item": "Experience",
-      "icon": "bx bx-desktop"
-    },
-    {
-      "item": "Certification",
-      "icon": "bx bx-award"
-    },
-    {
-      "item": "Languages",
-      "icon": "bx bx-comment-dots"
-    },
-    {
-      "item": "Interests",
->>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
       "icon": "bx bx-like"
     }
   ],

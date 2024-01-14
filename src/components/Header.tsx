@@ -34,11 +34,7 @@ const Header = ({ locale }: { locale: TFunction<"global"> }) => {
               return (
                 <li className="nav__item" key={i}>
                   <a
-<<<<<<< HEAD
                     href={"#" + locale(`menu.${item}.id`)}
-=======
-                    href="#home"
->>>>>>> 5d1955a3972bd3350a31edd146677ffbb397dd47
                     className={
                       item == "0" ? " nav__link active-link" : "nav__link"
                     }
