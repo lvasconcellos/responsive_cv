@@ -57,13 +57,13 @@ const ProfileSection = ({
         <div className="home__container">
           <div className="home__button">
             <div
-              className="home__item enUS-button"
+              className="home__item locale-button"
               onClick={() => handleLanguageChange("enUS")}
             >
               EN
             </div>
             <div
-              className="home__item ptBR-button"
+              className="home__item locale-button"
               onClick={() => handleLanguageChange("ptBR")}
             >
               BR

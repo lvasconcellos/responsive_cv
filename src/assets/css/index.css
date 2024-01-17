@@ -11,8 +11,6 @@
   --container-color: #f0efef;
   --container-color-alt: #e1e7ef;
   --body-color: #f0efef;
-  --lang-enUS-color: #bc6575;
-  --lang-ptBR-color: #5c9189;
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
   --h1-font-size: 1.5rem;
@@ -120,15 +118,6 @@ body.dark-theme {
 }
 
 /*========== Button Dark/Light ==========*/
-.theme-button {
-  background-color: var(--title-color);
-  color: var(--text-color-light);
-}
-
-.theme-button :hover {
-  color: var(--container-color-alt);
-}
-
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
@@ -165,13 +154,6 @@ a {
 img {
   max-width: 100%;
   height: auto;
-}
-
-/*========== Button PDF ==========*/
-.pdf-button {
-  background-color: var(--text-color-light);
-  color: var(--title-color);
-  cursor: pointer;
 }
 
 /*--============= CLASS CSS ==============*/
@@ -376,23 +358,18 @@ img {
 
 .home__item {
   font-size: 0.95rem;
-  color: var(--container-color-alt);
   margin-bottom: 0.25rem;
   display: inline-block;
-  box-shadow: 0 0 2px #888;
-  padding: 0.5em 0.6em;
-  border: 1px solid var(--title-color);
-  -ms-border-radius: 50%;
-  border-radius: 50%;
   cursor: pointer;
 }
 
-.ptBR-button {
-  background-color: var(--lang-ptBR-color);
+.home__item i {
+  cursor: pointer;
 }
 
-.enUS-button {
-  background-color: var(--lang-enUS-color);
+.home__item i:hover,
+.locale-button:hover {
+  color: var(--text-color-light);
 }
 
 .home__button-mobile {
@@ -583,15 +560,8 @@ img {
 
 .interests__icon {
   font-size: 1.5rem;
-  color: var(--container-color-alt);
   margin-bottom: 0.25rem;
   display: inline-block;
-  box-shadow: 0 0 2px #888;
-  padding: 0.5em 0.6em;
-  background-color: var(--text-color-light);
-  border: 3px solid var(--title-color);
-  -ms-border-radius: 50%;
-  border-radius: 50%;
 }
 
 /* Scroll top */

@@ -1,5 +1,6 @@
 {
-  "name": "responsive_resume",
+  "name": "responsive_cv",
+  "homepage": "https://lvasconcellos.github.io/responsive_cv",
   "private": true,
   "version": "0.0.0",
   "type": "module",
