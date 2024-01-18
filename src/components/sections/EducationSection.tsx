@@ -1,7 +1,11 @@
 import { TFunction } from "i18next";
 
-const EducationSection = ({ locale }: { locale: TFunction<"global"> }) => {
-  const details: Array<string> = Object.keys(
+interface EducationSectionProps {
+  locale: TFunction<"global">;
+}
+
+const EducationSection: React.FC<EducationSectionProps> = ({ locale }) => {
+  const educationDetails: string[] = Object.keys(
     locale("education.details", { returnObjects: true })
   );
 
@@ -25,9 +29,9 @@ const EducationSection = ({ locale }: { locale: TFunction<"global"> }) => {
           </div>
         </div>
 
-        {details.map((item, i) => {
+        {educationDetails.map((detail, index) => {
           return (
-            <div className="education__content" key={i}>
+            <div className="education__content" key={index}>
               <div className="education__time">
                 <span className="education__rounder"></span>
                 <span className="education__line"></span>
@@ -35,13 +39,13 @@ const EducationSection = ({ locale }: { locale: TFunction<"global"> }) => {
 
               <div className="education__data bd-grid">
                 <h3 className="education__title">
-                  {locale(`education.details.${item}.course`)}
+                  {locale(`education.details.${detail}.course`)}
                 </h3>
                 <span className="education__studies">
-                  {locale(`education.details.${item}.studies`)}
+                  {locale(`education.details.${detail}.studies`)}
                 </span>
                 <span className="education__year">
-                  {locale(`education.details.${item}.date`)}
+                  {locale(`education.details.${detail}.date`)}
                 </span>
               </div>
             </div>
@@ -51,4 +55,5 @@ const EducationSection = ({ locale }: { locale: TFunction<"global"> }) => {
     </section>
   );
 };
+
 export default EducationSection;

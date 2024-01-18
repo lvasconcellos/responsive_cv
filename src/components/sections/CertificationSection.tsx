@@ -1,7 +1,13 @@
 import { TFunction } from "i18next";
 
-const CertificationSection = ({ locale }: { locale: TFunction<"global"> }) => {
-  const certifications: Array<string> = Object.keys(
+interface CertificationSectionProps {
+  locale: TFunction<"global">;
+}
+
+const CertificationSection: React.FC<CertificationSectionProps> = ({
+  locale,
+}) => {
+  const certifications: string[] = Object.keys(
     locale("certification", { returnObjects: true })
   );
 
@@ -9,21 +15,20 @@ const CertificationSection = ({ locale }: { locale: TFunction<"global"> }) => {
     <section className="certificate section" id="certification">
       <h2 className="section-title">{locale("section.certification")}</h2>
       <div className="certificates__container bd-grid">
-        {certifications.map((item, i) => {
-          return (
-            <div className="certificates__content" key={i}>
-              <h3 className="certificates__title">
-                {locale(`certification.${item}.course`)},{" "}
-                {locale(`certification.${item}.date`)}
-              </h3>
-              <p className="certificates__description">
-                {locale(`certification.${item}.description`)}
-              </p>
-            </div>
-          );
-        })}
+        {certifications.map((certification, index) => (
+          <div className="certificates__content" key={index}>
+            <h3 className="certificates__title">
+              {locale(`certification.${certification}.course`)},{" "}
+              {locale(`certification.${certification}.date`)}
+            </h3>
+            <p className="certificates__description">
+              {locale(`certification.${certification}.description`)}
+            </p>
+          </div>
+        ))}
       </div>
     </section>
   );
 };
+
 export default CertificationSection;

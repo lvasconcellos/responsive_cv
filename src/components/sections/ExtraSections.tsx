@@ -1,6 +1,10 @@
 import { TFunction } from "i18next";
 
-const ExtraSections = ({ locale }: { locale: TFunction<"global"> }) => {
+interface ExtraSectionsProps {
+  locale: TFunction<"global">;
+}
+
+const ExtraSections: React.FC<ExtraSectionsProps> = ({ locale }) => {
   const languages: Array<string> = Object.keys(
     locale("languages", { returnObjects: true })
   );
@@ -15,12 +19,12 @@ const ExtraSections = ({ locale }: { locale: TFunction<"global"> }) => {
 
         <div className="languages__container bd-grid">
           <ul className="languages__data">
-            {languages.map((item, i) => {
+            {languages.map((language, i) => {
               return (
                 <li className="languages__name" key={i}>
                   <span className="languages__circle"></span>{" "}
-                  {locale(`languages.${item}.language`)} -{" "}
-                  {locale(`languages.${item}.level`)}
+                  {locale(`languages.${language}.language`)} -{" "}
+                  {locale(`languages.${language}.level`)}
                 </li>
               );
             })}
@@ -32,16 +36,16 @@ const ExtraSections = ({ locale }: { locale: TFunction<"global"> }) => {
         <h2 className="section-title">{locale("section.interest")}</h2>
 
         <div className="interests__container bd-grid">
-          {interests.map((item, i) => {
+          {interests.map((interest, i) => {
             return (
               <div className="interests__content" key={i}>
                 <i
                   className={
-                    locale(`interests.${item}.icon`) + " interests__icon"
+                    locale(`interests.${interest}.icon`) + " interests__icon"
                   }
                 ></i>
                 <span className="interests__name">
-                  {locale(`interests.${item}.interest`)}
+                  {locale(`interests.${interest}.interest`)}
                 </span>
               </div>
             );

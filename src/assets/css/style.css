@@ -23,7 +23,7 @@
   /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
-  /*========== Margenes ==========*/
+  /*========== Margins ==========*/
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -295,6 +295,24 @@ img {
 /* Active menu link */
 .active-link {
   color: var(--title-color);
+}
+
+/*--============= LOADER ==============*/
+.lds-ellipsis {
+  position: fixed;
+  z-index: var(--z-fixed);
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.lds-ellipsis div {
+  background: var(--text-color);
 }
 
 /*========== HOME ==========*/

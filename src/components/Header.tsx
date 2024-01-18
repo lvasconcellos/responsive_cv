@@ -1,27 +1,22 @@
 import { TFunction } from "i18next";
-import { useEffect } from "react";
+import React, { useState } from "react";
 
-const Header = ({ locale }: { locale: TFunction<"global"> }) => {
-  const menu: Array<string> = Object.keys(
-    locale("menu", { returnObjects: true })
-  );
+interface HeaderProps {
+  locale: TFunction<"global">;
+}
 
-  useEffect(() => {
-    document.querySelectorAll(".nav__link").forEach((link) => {
-      link.addEventListener("click", () => {
-        document
-          .querySelectorAll(".nav__link")
-          .forEach((element) => element.classList.remove("active-link"));
+const Header: React.FC<HeaderProps> = ({ locale }) => {
+  const menu = Object.keys(locale("menu", { returnObjects: true }));
+  const [activeLink, setActiveLink] = useState(0);
 
-        link.classList.add("active-link");
-        link.setAttribute("aria-current", "page");
-      });
-    });
-  }, []);
+  const handleNavItemClick = (index: number) => {
+    setActiveLink(index);
+  };
 
   const handleShowMenu = (toggleId: string, menuClass: string) => {
     document.getElementById(toggleId)?.classList.toggle(menuClass);
   };
+
   return (
     <header className="l-header" id="header">
       <nav className="nav bd-container">
@@ -30,21 +25,20 @@ const Header = ({ locale }: { locale: TFunction<"global"> }) => {
         </a>
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list">
-            {menu.map((item, i) => {
-              return (
-                <li className="nav__item" key={i}>
-                  <a
-                    href={"#" + locale(`menu.${item}.id`)}
-                    className={
-                      item == "0" ? " nav__link active-link" : "nav__link"
-                    }
-                  >
-                    <i className={locale(`menu.${item}.icon`)}></i>{" "}
-                    {locale(`menu.${item}.item`)}
-                  </a>
-                </li>
-              );
-            })}
+            {menu.map((item, index) => (
+              <li className="nav__item" key={index}>
+                <a
+                  href={`#${locale(`menu.${item}.id`)}`}
+                  className={`nav__link ${
+                    index === activeLink ? "active-link" : ""
+                  }`}
+                  onClick={() => handleNavItemClick(index)}
+                >
+                  <i className={locale(`menu.${item}.icon`)}></i>{" "}
+                  {locale(`menu.${item}.item`)}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
 
@@ -58,4 +52,5 @@ const Header = ({ locale }: { locale: TFunction<"global"> }) => {
     </header>
   );
 };
+
 export default Header;

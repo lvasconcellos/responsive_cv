@@ -1,20 +1,22 @@
 import { useState, useEffect } from "react";
 
+const COOKIE_CONSENT_KEY = "cookieConsent";
+
 const CookiesConsent = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleAccept = () => {
-    localStorage.setItem("cookieConsent", "true");
+    localStorage.setItem(COOKIE_CONSENT_KEY, "true");
     setShowPopup(false);
   };
 
   const handleDecline = () => {
-    localStorage.setItem("cookieConsent", "false");
+    localStorage.setItem(COOKIE_CONSENT_KEY, "false");
     setShowPopup(false);
   };
 
   useEffect(() => {
-    const consentGiven = localStorage.getItem("cookieConsent") === "true";
+    const consentGiven = localStorage.getItem(COOKIE_CONSENT_KEY) === "true";
     if (!consentGiven) {
       setShowPopup(true);
     }
@@ -27,7 +29,10 @@ const CookiesConsent = () => {
           <div className="cookies-popup__container">
             <div className="cookies-popup__content">
               <header className="cookies-popup__header">
-                <i className="bx bx-cookie cookies-popup__icon"></i>
+                <i
+                  className="bx bx-cookie cookies-popup__icon"
+                  aria-hidden="true"
+                ></i>
                 <h2 className="cookies-popup__title">Cookie Consent</h2>
               </header>
               <div className="cookies-popup__description">
@@ -45,12 +50,14 @@ const CookiesConsent = () => {
                 <button
                   className="cookies-popup__button"
                   onClick={handleAccept}
+                  aria-label="Accept Cookies"
                 >
                   Accept
                 </button>
                 <button
                   className="cookies-popup__button"
                   onClick={handleDecline}
+                  aria-label="Decline Cookies"
                 >
                   Decline
                 </button>

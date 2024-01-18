@@ -6,12 +6,14 @@ import CertificationSection from "./sections/CertificationSection";
 import ExtraSections from "./sections/ExtraSections";
 import { TFunction } from "i18next";
 
-const MainContent = ({
-  locale,
-  handleLanguageChange,
-}: {
+interface MainContentProps {
   locale: TFunction<"global">;
   handleLanguageChange: (lang: string) => void;
+}
+
+const MainContent: React.FC<MainContentProps> = ({
+  locale,
+  handleLanguageChange,
 }) => {
   return (
     <main className="l-main bd-container">
