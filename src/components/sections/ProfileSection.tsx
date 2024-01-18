@@ -1,14 +1,26 @@
 import { TFunction } from "i18next";
 import profileImg from "../../assets/img/profile.png";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
-const ProfileSection = ({
-  locale,
-  handleLanguageChange,
-}: {
+interface ProfileSectionProps {
   locale: TFunction<"global">;
   handleLanguageChange: (lang: string) => void;
+}
+
+const ProfileSection: React.FC<ProfileSectionProps> = ({
+  locale,
+  handleLanguageChange,
 }) => {
+  const [theme, setTheme] = useState<string>(() => {
+    const selectedTheme = localStorage.getItem("selected-theme");
+    return selectedTheme || "light";
+  });
+
+  useEffect(() => {
+    document.body.classList.toggle("dark-theme", theme === "dark");
+    localStorage.setItem("selected-theme", theme);
+  }, [theme]);
+
   const handleDownloadPDF = () => {
     import(`../../assets/pdf/${locale("lng")}/lvasconcellosCV.pdf`).then(
       (pdf) => {
@@ -21,46 +33,8 @@ const ProfileSection = ({
   };
 
   const handleThemeChange = () => {
-    const darkTheme = "dark-theme";
-    const iconTheme = "bx-sun";
-    const selectedTheme = localStorage.getItem("selected-theme");
-    const selectedIcon = localStorage.getItem("selected-icon");
-
-    const getCurrentTheme = () =>
-      document.body.classList.contains(darkTheme) ? "dark" : "light";
-    const getCurrentIcon = () =>
-      document.getElementById("theme-toggle")?.classList.contains(iconTheme)
-        ? "bx-moon"
-        : "bx-sun";
-
-    if (selectedTheme) {
-      document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
-        darkTheme
-      );
-      document
-        .getElementById("theme-toggle")
-        ?.classList[selectedIcon === "bx-moon" ? "add" : "remove"](iconTheme);
-    }
-
-    document.body.classList.toggle(darkTheme);
-    document.getElementById("theme-toggle")?.classList.toggle(iconTheme);
-    localStorage.setItem("selected-theme", getCurrentTheme());
-    localStorage.setItem("selected-icon", getCurrentIcon());
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
-
-  useEffect(() => {
-    const selectedTheme = localStorage.getItem("selected-theme");
-    const selectedIcon = localStorage.getItem("selected-icon");
-
-    if (selectedTheme) {
-      document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
-        "dark-theme"
-      );
-      document
-        .getElementById("theme-toggle")
-        ?.classList[selectedIcon === "bx-moon" ? "add" : "remove"]("bx-sun");
-    }
-  }, []);
 
   return (
     <>
@@ -97,7 +71,11 @@ const ProfileSection = ({
               className="home__item theme-button"
               onClick={() => handleThemeChange()}
             >
-              <i className="bx bx-moon" title="Theme" id="theme-toggle"></i>
+              <i
+                className={`bx bx-${theme === "dark" ? "sun" : "moon"}`}
+                title="Theme"
+                id="theme-toggle"
+              ></i>
             </div>
           </div>
           <div className="home__data bd-grid">
