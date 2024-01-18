@@ -1,5 +1,6 @@
 import { TFunction } from "i18next";
 import profileImg from "../../assets/img/profile.png";
+import { useEffect } from "react";
 
 const ProfileSection = ({
   locale,
@@ -28,7 +29,7 @@ const ProfileSection = ({
     const getCurrentTheme = () =>
       document.body.classList.contains(darkTheme) ? "dark" : "light";
     const getCurrentIcon = () =>
-      document.getElementById("theme-toogle")?.classList.contains(iconTheme)
+      document.getElementById("theme-toggle")?.classList.contains(iconTheme)
         ? "bx-moon"
         : "bx-sun";
 
@@ -37,15 +38,29 @@ const ProfileSection = ({
         darkTheme
       );
       document
-        .getElementById("theme-toogle")
+        .getElementById("theme-toggle")
         ?.classList[selectedIcon === "bx-moon" ? "add" : "remove"](iconTheme);
     }
 
     document.body.classList.toggle(darkTheme);
-    document.getElementById("theme-toogle")?.classList.toggle(iconTheme);
+    document.getElementById("theme-toggle")?.classList.toggle(iconTheme);
     localStorage.setItem("selected-theme", getCurrentTheme());
     localStorage.setItem("selected-icon", getCurrentIcon());
   };
+
+  useEffect(() => {
+    const selectedTheme = localStorage.getItem("selected-theme");
+    const selectedIcon = localStorage.getItem("selected-icon");
+
+    if (selectedTheme) {
+      document.body.classList[selectedTheme === "dark" ? "add" : "remove"](
+        "dark-theme"
+      );
+      document
+        .getElementById("theme-toggle")
+        ?.classList[selectedIcon === "bx-moon" ? "add" : "remove"]("bx-sun");
+    }
+  }, []);
 
   return (
     <>
@@ -82,7 +97,7 @@ const ProfileSection = ({
               className="home__item theme-button"
               onClick={() => handleThemeChange()}
             >
-              <i className="bx bx-moon" title="Theme" id="theme-toogle"></i>
+              <i className="bx bx-moon" title="Theme" id="theme-toggle"></i>
             </div>
           </div>
           <div className="home__data bd-grid">
