@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useState } from "react";
+﻿import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Header from "./Header";
 import MainContent from "./MainContent";
@@ -14,6 +14,7 @@ function Resume() {
     useSuspense: false,
   });
   const [showSection, setShowSection] = useState("");
+  const ConsentMode = JSON.parse(localStorage.getItem("consentMode") || "{}");
 
   const handleScroll = () => {
     const scrollTop = document.getElementById("scroll-top");
@@ -23,19 +24,22 @@ function Resume() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    const selectedLanguage = localStorage.getItem("selected-language") || "en";
+    i18n.changeLanguage(selectedLanguage);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [i18n]);
 
-  const handleLanguageChange = (lang: string) => {
-    i18n.changeLanguage(lang);
-    localStorage.setItem("selected-language", lang);
+  const handleLanguageChange = (selectedLanguage: string) => {
+    i18n.changeLanguage(selectedLanguage);
+    if (ConsentMode.personalization === "granted") {
+      localStorage.setItem("selected-language", selectedLanguage);
+    }
   };
 
   const toggleSection = (section: string) => {
-    console.log("section", section);
     if (showSection === section) {
       setShowSection("");
     } else {

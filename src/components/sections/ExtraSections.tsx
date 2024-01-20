@@ -62,9 +62,6 @@ const ExtraSections: React.FC<ExtraSectionsProps> = ({
               default:
                 break;
             }
-
-            console.log("section", section);
-
             return (
               <div className="interests__content" key={i}>
                 <i

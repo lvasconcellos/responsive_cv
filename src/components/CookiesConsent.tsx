@@ -1,68 +1,142 @@
 import { useState, useEffect } from "react";
+import ReactGA from "react-ga";
 
-const COOKIE_CONSENT_KEY = "cookieConsent";
+const COOKIE_CONSENT_KEY = "consentMode";
+interface CookieConsentProps {
+  necessary: boolean;
+  analytics: boolean;
+  preferences: boolean;
+  marketing: boolean;
+}
 
 const CookiesConsent = () => {
   const [showPopup, setShowPopup] = useState(false);
+  const [analyticsConsent, setAnalyticsConsent] = useState(true);
+  const [preferencesConsent, setPreferencesConsent] = useState(true);
+  const [marketingConsent, setMarketingConsent] = useState(false);
 
-  const handleAccept = () => {
-    localStorage.setItem(COOKIE_CONSENT_KEY, "true");
+  const handleAcceptAll = () => {
+    setConsent({
+      necessary: true,
+      analytics: true,
+      preferences: true,
+      marketing: true,
+    });
     setShowPopup(false);
   };
 
-  const handleDecline = () => {
-    localStorage.setItem(COOKIE_CONSENT_KEY, "false");
+  const handleAcceptSelection = () => {
+    setConsent({
+      necessary: true,
+      analytics: analyticsConsent,
+      preferences: preferencesConsent,
+      marketing: marketingConsent,
+    });
     setShowPopup(false);
   };
+
+  const handleRejectAll = () => {
+    setConsent({
+      necessary: false,
+      analytics: false,
+      preferences: false,
+      marketing: false,
+    });
+    setShowPopup(false);
+  };
+
+  function setConsent(consent: CookieConsentProps) {
+    const consentMode = {
+      functionality_storage: consent.necessary ? "granted" : "denied",
+      security_storage: consent.necessary ? "granted" : "denied",
+      ad_storage: consent.marketing ? "granted" : "denied",
+      analytics_storage: consent.analytics ? "granted" : "denied",
+      personalization: consent.preferences ? "granted" : "denied",
+    };
+
+    ReactGA.ga("consent", "update", consentMode);
+    localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(consentMode));
+    setShowPopup(false);
+  }
 
   useEffect(() => {
-    const consentGiven = localStorage.getItem(COOKIE_CONSENT_KEY) === "true";
+    const consentGiven = localStorage.getItem(COOKIE_CONSENT_KEY) !== null;
     if (!consentGiven) {
       setShowPopup(true);
     }
-  }, []);
+  }, [showPopup]);
 
   return (
     <div>
       {showPopup && (
-        <div className="cookies-popup container">
-          <div className="cookies-popup__container">
-            <div className="cookies-popup__content">
-              <header className="cookies-popup__header">
-                <i
-                  className="bx bx-cookie cookies-popup__icon"
-                  aria-hidden="true"
-                ></i>
-                <h2 className="cookies-popup__title">Cookie Consent</h2>
-              </header>
-              <div className="cookies-popup__description">
-                <p>
-                  We use cookies to ensure you get the best experience on our
-                  website.
-                </p>
-                <p>
-                  By clicking "Accept," you consent to the use of all cookies.
-                  If you prefer to decline, click "Decline" to restrict
-                  non-essential cookies.
-                </p>
-              </div>
-              <div className="cookies-popup__buttons">
-                <button
-                  className="cookies-popup__button"
-                  onClick={handleAccept}
-                  aria-label="Accept Cookies"
-                >
-                  Accept
-                </button>
-                <button
-                  className="cookies-popup__button"
-                  onClick={handleDecline}
-                  aria-label="Decline Cookies"
-                >
-                  Decline
-                </button>
-              </div>
-            </div>
+        <div id="cookie-consent-banner" className="cookie-consent-banner">
+          <h3>Cookie settings</h3>
+          <p>
+            We use cookies to provide you with the best possible experience.
+            They also allow us to analyze user behavior in order to constantly
+            improve the website for you.
+          </p>
+          <button
+            id="btn-accept-all"
+            className="cookie-consent-button btn-success"
+            onClick={() => handleAcceptAll()}
+          >
+            Accept All
+          </button>
+          <button
+            id="btn-accept-some"
+            className="cookie-consent-button btn-outline"
+            onClick={() => handleAcceptSelection()}
+          >
+            Accept Selection
+          </button>
+          <button
+            id="btn-reject-all"
+            className="cookie-consent-button btn-grayscale"
+            onClick={() => handleRejectAll()}
+          >
+            Reject All
+          </button>
+          <div className="cookie-consent-options">
+            <label>
+              <input
+                id="consent-necessary"
+                type="checkbox"
+                value="Necessary"
+                checked
+                disabled
+              />
+              Necessary
+            </label>
+            <label>
+              <input
+                id="consent-analytics"
+                type="checkbox"
+                value="Analytics"
+                checked
+                onChange={() => setAnalyticsConsent(!analyticsConsent)}
+              />
+              Analytics
+            </label>
+            <label>
+              <input
+                id="consent-preferences"
+                type="checkbox"
+                value="Preferences"
+                checked
+                onChange={() => setPreferencesConsent(!preferencesConsent)}
+              />
+              Preferences
+            </label>
+            <label>
+              <input
+                id="consent-marketing"
+                type="checkbox"
+                value="Marketing"
+                onChange={() => setMarketingConsent(!marketingConsent)}
+              />
+              Marketing
+            </label>
           </div>
         </div>
       )}

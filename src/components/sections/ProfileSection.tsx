@@ -19,7 +19,11 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({
 
   useEffect(() => {
     document.body.classList.toggle("dark-theme", theme === "dark");
-    localStorage.setItem("selected-theme", theme);
+
+    const ConsentMode = JSON.parse(localStorage.getItem("consentMode") || "{}");
+    if (ConsentMode.personalization === "granted") {
+      localStorage.setItem("selected-theme", theme);
+    }
   }, [theme]);
 
   const handleDownloadPDF = () => {
