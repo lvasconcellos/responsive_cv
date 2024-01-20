@@ -1,55 +1,35 @@
 import { TFunction } from "i18next";
-import ReactGA from "react-ga";
 
 interface SocialSectionProps {
   locale: TFunction<"global">;
 }
 
 const SocialSection: React.FC<SocialSectionProps> = ({ locale }) => {
-  function handleClick(link: string) {
-    ReactGA.event({
-      category: "Button Click",
-      action: `Clicked on ${link}`,
-      label: "Social Page",
-    });
-  }
-
+  const socials: string[] = Object.keys(
+    locale("social", { returnObjects: true })
+  );
   return (
     <>
       <section className="social section">
         <h2 className="section-title">{locale("section.social")}</h2>
 
         <div className="social__container bd-grid">
-          <a
-            href={locale("social.0.url")}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social__link"
-            onClick={() => handleClick(locale("social.0.name"))}
-          >
-            <i className={locale("social.0.icon") + " social__icon"}></i>{" "}
-            {locale("social.0.handler")}
-          </a>
-
-          <a
-            href={locale("social.1.url")}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social__link"
-          >
-            <i className={locale("social.1.icon") + " social__icon"}></i>{" "}
-            {locale("social.1.handler")}
-          </a>
-
-          <a
-            href={locale("social.2.url")}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social__link"
-          >
-            <i className={locale("social.2.icon") + " social__icon"}></i>{" "}
-            {locale("social.2.handler")}
-          </a>
+          {socials.map((social, index) => (
+            <a
+              href={locale(`social.${social}.url`)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social__link"
+              key={index}
+              id={locale(`social.${social}.name`)}
+              title={locale(`social.${social}.name`)}
+            >
+              <i
+                className={locale(`social.${social}.icon`) + " social__icon"}
+              ></i>
+              {locale(`social.${social}.handler`)}
+            </a>
+          ))}
         </div>
       </section>
     </>
