@@ -69,16 +69,19 @@
   },
   "social": [
     {
+      "name": "linkedin",
       "icon": "bx bxl-linkedin-square",
       "url": "https://www.linkedin.com/in/leticiavasconcellos",
       "handler": "@leticiavasconcellos"
     },
     {
+      "name": "github",
       "icon": "bx bxl-github",
       "url": "https://github.com/lvasconcellos",
       "handler": "@lvasconcellos"
     },
     {
+      "name": "discord",
       "icon": "bx bxl-discord-alt",
       "url": "https://discord.com/users/717408919714267199",
       "handler": "@lvasconcellos"
