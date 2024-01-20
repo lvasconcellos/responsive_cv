@@ -7,9 +7,14 @@ import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
 import App from "./App.tsx";
 
+let selectedLanguage = "enUS";
+if (localStorage.getItem("selected-language") !== null) {
+  selectedLanguage = localStorage.getItem("selected-language")!;
+}
+
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: "enUS",
+  lng: selectedLanguage,
   resources: {
     enUS: {
       global: locale_enUS,

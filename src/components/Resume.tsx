@@ -24,13 +24,10 @@ function Resume() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    const selectedLanguage = localStorage.getItem("selected-language") || "en";
-    i18n.changeLanguage(selectedLanguage);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [i18n]);
+  }, []);
 
   const handleLanguageChange = (selectedLanguage: string) => {
     i18n.changeLanguage(selectedLanguage);
