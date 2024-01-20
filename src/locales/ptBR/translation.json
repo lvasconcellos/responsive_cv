@@ -8,7 +8,11 @@
     "experience": "Experiência",
     "certification": "Certificações",
     "language": "Idiomas",
-    "interest": "Interesses"
+    "interest": "Interesses",
+    "pets": "Animais de estimação",
+    "reads": "Leitura",
+    "writings": "Escrita",
+    "drawings": "Desenhos"
   },
   "menu": [
     {
@@ -222,8 +226,188 @@
       "interest": "Desenhar"
     },
     {
-      "icon": "bx bxs-music",
-      "interest": "Música"
+      "icon": "bx bxs-book-bookmark",
+      "interest": "Ler"
+    }
+  ],
+  "pets": [
+    {
+      "name": "Sombra",
+      "type": "Dog",
+      "description": "Meu menino mais animado, ele adora adora brinquedos. Nunca recusa um brinquedo novo.",
+      "photo": "../images/sombra.jpg"
+    },
+    {
+      "name": "Shaggy",
+      "type": "Dog",
+      "description": "O mais velho e mais sábio da turma, ele adora cafuné e cochilos.",
+      "photo": "../images/shaggy.jpg"
+    },
+    {
+      "name": "Otto",
+      "type": "Dog",
+      "description": "Não sei de onde ele tira tanto energia. Com 9 anos, ele ainda parece filhote de tudo.",
+      "photo": "../images/otto.jpg"
+    },
+    {
+      "name": "Vinagre",
+      "type": "Cat",
+      "description": "Meu companheiro de trabalho, nada passa despercebido por ele, especialmente brinquedos. Ele adora brincar de caçar.",
+      "photo": "../images/vinagre.jpg"
+    },
+    {
+      "name": "Milu",
+      "type": "Cat",
+      "description": "Ele jamais perguntaria a um espelho quem é o mais belo de todos. Ele já sabe que é ele.",
+      "photo": "../images/milu.jpg"
+    },
+    {
+      "name": "Canela",
+      "type": "Cat",
+      "description": "Minha única menina e princesa da casa. Ela tem todos os meninos na palma da pata.",
+      "photo": "../images/canela.jpg"
+    }
+  ],
+  "reads": [
+    {
+      "name": "The Power of Habit",
+      "type": "Personal Development",
+      "description": "Mind blowing read. Didn't change my life yet, but I'm working on it.",
+      "photo": "../images/book01.jpg"
+    },
+    {
+      "name": "Nonviolent Communication",
+      "type": "Social Sciences",
+      "description": "Perfect opportunity to leave judgement aside and be open to new perspectives.",
+      "photo": "../images/book02.jpg"
+    },
+    {
+      "name": "The Things We Do for Love",
+      "type": "Genre Fiction",
+      "description": "The story hits my soft spot for unconventional love stories. Some love stories are not about romance.",
+      "photo": "../images/book03.jpg"
+    },
+    {
+      "name": "The Witness",
+      "type": "Women's Fiction",
+      "description": "Another thing I love in a story is a complex character. So many feelings and so many layer to enjoy.",
+      "photo": "../images/book04.jpg"
+    },
+    {
+      "name": "Clean Code",
+      "type": "Programming & Software Development",
+      "description": "Did not go through them all yet, but it's a work in progress.",
+      "photo": "../images/book05.jpg"
+    },
+    {
+      "name": "Going Rogue",
+      "type": "Mystery",
+      "description": "I am addicted to the whole series. Looking for amazing dialog, smart plots and funny characters? Look no further.",
+      "photo": "../images/book06.jpg"
+    }
+  ],
+  "writings": [
+    {
+      "name": "Partida",
+      "type": "Poema",
+      "description": "Acho que nasci de coração partido,| Mas de uns tempos para cá, sinto que achei uns pedaços perdidos.| Alguns se encaixam e ficam, outros não.| Outros se partem de novo, e se vão..."
+    },
+    {
+      "name": "Lembro",
+      "type": "Poema",
+      "description": "Lembro dos teus olhos castanhos| E dos teus pulos de alegria| Da tua fome insaciável e tua constante euforia| Lembro de te dar nomes, | Por não saber que nome dar| Não que precisasse. Eu quase nem tinha que chamar| Lembro que o tempo passou rápido,| E que você já não era o mesmo| Naquele tempo eu achava, que o mal ainda tinha remédio| Lembro de te carregar no colo,| E da certeza que você tinha em mim| Dava medo ser tanto pra alguém, mas não era um medo ruim| Lembro de te abraçar forte,| E te pedir pra ficar só mais um pouquinho.| Quando deitei e rezei, pedi a Deus pra me mostrar o caminho| Dói quando penso que você partiu, | Mas aí lembro... não importa quanto tempo passar| Eu sempre vou poder lembrar."
+    },
+    {
+      "name": "Gritos No Silêncio",
+      "type": "História",
+      "description": "Está escuro no parque, a noite parece calma, mal se ouve carros passando na rua, mal se vê pessoas também. Talvez pelo horário, tarde da noite as pessoas preferem se encontrar em lugares mais agitados ou se recolherem para as suas casas. A não ser que estejam trabalhando, mas de qualquer forma, seriam raros aqueles que escolheriam passear em um parque. Mesmo assim, o parque não está vazio.| De longe se vê algo em um dos bancos. No primeiro momento não se pode definir o que é, mas se prestar atenção, é possível enxergar o desenho de braços e mãos pendurados para fora do banco, então cabelos cobrindo as costas – o cumprimento quase tocando seu jeans. Ela não é muito alta, mas sua posição faz com que seus pés descansem para fora do outro lado do banco.| Ela parece estar dormindo, ou talvez desmaiada, principalmente a julgar pelo cabelo desarrumado e pedaços de folhas presos nele. As roupas parecem sujas e a postura do corpo indica um grande esgotamento. E pelos pés descalços e feridos, você poderia presumir que andaram bastante, ou até correram para trazê-la até lá. | Não muito longe, alguém caminha no parque. Sapatos sociais pretos, calça social preta com riscas de giz. Você pode presumir que é um homem, um homem alto. | Ele para em frente ao banco e joga sobre ela um cobertor, antes de pegá-la nos braços.| A mulher não reage, mas agora é possível ver um rosto. Ela tem uma pele suave, lábios volumosos e pálpebras delicadas. Mas não é isso que chama a atenção em seu rosto no momento, há uma linha de sangue passando de sua testa até o pescoço e feridas esverdeadas perto dos olhos também.| O homem caminha em direção a seu carro, com a porta previamente aberta. Ele a coloca no banco de trás e fecha a porta. A mulher continua desacordada."
+    },
+    {
+      "name": "VAZIO",
+      "type": "Poema",
+      "description": "Vazio não é a ausência que preenche| O lugar reservado ao desejo,| Não é a falta do que devia estar.| Aquilo que por medo ou incapacidade não se pode obter.| Vazio é uma presença| Algo que se prende por dentro| E às vezes preenche tão perfeitamente | Que é difícil deixar o sonho tomar seu lugar.| Andar com o vazio no peito pode se tornar um vício.| Acordar com o vazio na mente pode tornar o dia tão mais fácil| Que é preciso coragem para ceder espaço | E deixar que a sede do algo mais passe a ser parte da rotina| Mas o vazio na alma... | Este vai suspirar baixinho | Sempre que olhar para o mundo lá fora| Vai te manter em claro e te invadir a mente durante os sonhos.| Estar preenchido de vazio| É a escolha de seguir em frente em direção nenhuma| É se deixar cegar por todas a razões que não existem.| Não se engane pensando que ao abrir a porta, deixou o vazio entrar| O vazio sempre esteve lá dentro| Deixe de lado a dúvida, a insegurança, o medo| E abra para si uma nova porta,| O vazio só poderá sair| Se a esperança for permitida entrar."
+    }
+  ],
+  "drawings": [
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing01.png"
+    },
+    {
+      "type": "Vetor",
+      "photo": "../images/drawing02.jpg"
+    },
+    {
+      "type": "Vetor",
+      "photo": "../images/drawing03.jpg"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing04.jpg"
+    },
+    {
+      "type": "Vetor",
+      "photo": "../images/drawing05.jpg"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing06.jpg"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing07.jpg"
+    },
+    {
+      "type": "Vetor",
+      "photo": "../images/drawing08.png"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing09.jpg"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing10.jpg"
+    },
+    {
+      "type": "Vetor",
+      "photo": "../images/drawing11.png"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing12.png"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing13.jpg"
+    },
+    {
+      "type": "Vetor",
+      "photo": "../images/drawing14.png"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing15.jpg"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing16.png"
+    },
+    {
+      "type": "Vetor",
+      "photo": "../images/drawing17.jpg"
+    },
+    {
+      "type": "Vetor",
+      "photo": "../images/drawing18.jpg"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing19.jpg"
+    },
+    {
+      "type": "Feito à mão",
+      "photo": "../images/drawing20.jpg"
     }
   ]
 }

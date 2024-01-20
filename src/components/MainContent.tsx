@@ -9,11 +9,13 @@ import { TFunction } from "i18next";
 interface MainContentProps {
   locale: TFunction<"global">;
   handleLanguageChange: (lang: string) => void;
+  handleToggleSection: (section: string) => void;
 }
 
 const MainContent: React.FC<MainContentProps> = ({
   locale,
   handleLanguageChange,
+  handleToggleSection,
 }) => {
   return (
     <main className="l-main bd-container">
@@ -29,7 +31,10 @@ const MainContent: React.FC<MainContentProps> = ({
         <div className="resume__right">
           <ExperienceSection locale={locale} />
           <CertificationSection locale={locale} />
-          <ExtraSections locale={locale} />
+          <ExtraSections
+            locale={locale}
+            handleToggleSection={handleToggleSection}
+          />
         </div>
       </div>
     </main>

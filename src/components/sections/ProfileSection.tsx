@@ -23,10 +23,10 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({
   }, [theme]);
 
   const handleDownloadPDF = () => {
-    import(`../../assets/pdf/${locale("lng")}/lvasconcellosCV.pdf`).then(
+    import(`../../assets/pdf/${locale("lng")}/lvasconcellos.pdf`).then(
       (pdf) => {
         const link = document.createElement("a");
-        link.download = "lvasconcellos - CV";
+        link.download = `leticia vasconcellos - ${locale("lng")}`;
         link.href = pdf.default;
         link.click();
       }

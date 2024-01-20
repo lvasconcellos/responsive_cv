@@ -8,7 +8,11 @@
     "experience": "Experience",
     "certification": "Certification",
     "language": "Languages",
-    "interest": "Interests"
+    "interest": "Interests",
+    "pets": "Pets",
+    "reads": "Reading",
+    "writings": "Writings",
+    "drawings": "Drawings"
   },
   "menu": [
     {
@@ -214,7 +218,7 @@
       "interest": "Pets"
     },
     {
-      "icon": "bx bxs-book",
+      "icon": "bx bxs-book-content",
       "interest": "Writing"
     },
     {
@@ -222,8 +226,194 @@
       "interest": "Drawing"
     },
     {
-      "icon": "bx bxs-music",
-      "interest": "Music"
+      "icon": "bx bxs-book-bookmark",
+      "interest": "Reading"
+    }
+  ],
+  "pets": [
+    {
+      "name": "Sombra",
+      "type": "Dog",
+      "description": "My most happy-go-lucky boy. Even at 9 years old, he loves to play with his toys.",
+      "photo": "../images/sombra.jpg"
+    },
+    {
+      "name": "Shaggy",
+      "type": "Dog",
+      "description": "The oldest and wisest of the bunch. He loves to cuddle and sleep on my lap.",
+      "photo": "../images/shaggy.jpg"
+    },
+    {
+      "name": "Otto",
+      "type": "Dog",
+      "description": "I don't know where he finds the energy to jump around all day. At 9 years old, he's still a puppy at heart.",
+      "photo": "../images/otto.jpg"
+    },
+    {
+      "name": "Vinagre",
+      "type": "Cat",
+      "description": "My little work-buddy, no typo gets by him and no flying toys either. He's always ready to play fetch.",
+      "photo": "../images/vinagre.jpg"
+    },
+    {
+      "name": "Milu",
+      "type": "Cat",
+      "description": "He would never ask a mirror who's the fairest of them all. He is already confident that he is.",
+      "photo": "../images/milu.jpg"
+    },
+    {
+      "name": "Canela",
+      "type": "Cat",
+      "description": "My only girl and the queen of the house. She has all the boys in the palm of her paw.",
+      "photo": "../images/canela.jpg"
+    }
+  ],
+  "reads": [
+    {
+      "name": "The Power of Habit",
+      "type": "Personal Development",
+      "description": "Mind blowing read. Didn't change my life yet, but I'm working on it.",
+      "photo": "../images/book01.jpg"
+    },
+    {
+      "name": "Nonviolent Communication",
+      "type": "Social Sciences",
+      "description": "Perfect opportunity to leave judgement aside and be open to new perspectives.",
+      "photo": "../images/book02.jpg"
+    },
+    {
+      "name": "The Things We Do for Love",
+      "type": "Genre Fiction",
+      "description": "The story hits my soft spot for unconventional love stories. Some love stories are not about romance.",
+      "photo": "../images/book03.jpg"
+    },
+    {
+      "name": "The Witness",
+      "type": "Women's Fiction",
+      "description": "Another thing I love in a story is a complex character. So many feelings and so many layer to enjoy.",
+      "photo": "../images/book04.jpg"
+    },
+    {
+      "name": "Clean Code",
+      "type": "Programming & Software Development",
+      "description": "Did not go through them all yet, but it's a work in progress.",
+      "photo": "../images/book05.jpg"
+    },
+    {
+      "name": "Going Rogue",
+      "type": "Mystery",
+      "description": "I am addicted to the whole series. Looking for amazing dialog, smart plots and funny characters? Look no further.",
+      "photo": "../images/book06.jpg"
+    },
+    {
+      "name": "Why Has Nobody Told Me This Before?",
+      "type": "Psychology & Mental Health",
+      "description": "I've in therapy for the past 3 years and this book is a great complement to it. It's a great read for anyone who wants to understand themselves better.",
+      "photo": "../images/book07.jpg"
+    }
+  ],
+  "writings": [
+    {
+      "name": "The 22 Days",
+      "type": "Short Story",
+      "description": "I'm home! He called out as he walked through the door. He went to the couch and flopped down, immediately taking off his dirty boots. Tired, he leaned back, letting his heavy breath out while he waited.| A minute went by and he looked around, still waiting, You hear me? He pointed his face up, trying to hear sounds. Confused at the silence, he got up and went to the kitchen. He narrowed his eyes at the empty clean space. There should be pots on the stove, something cooking in the oven.| The next place he checked, were the bedrooms. First his kid's, then his own. Everything was empty, quiet and empty. Angry, he put his boots back on, grabbed his keys and headed to his truck."
+    },
+    {
+      "name": "Screamin' in Silence",
+      "type": "Long Story",
+      "description": "In the New York Police Department's reception area, phones ring incessantly, and the relentless clatter of keyboards drowns out the hum of many conversations. The space, not particularly spacious, buzzes with the energy of laughter, footsteps, and the occasional slamming door. Amidst this cacophony, focusing on a single scene is impossible, but it's not necessary either. Here, the remarkable feature is the silence.| Just past the reception, down a hallway adorned with plaques and pictures honoring past heroes and teams, sits a gray door. Behind it, the silence is so complete it almost suggests abandonment.| Inside, the woman at the desk is a study in concentration. She lifts a photograph, holding it up to the light, her eyes darting between it and the plethora of others scattered across her desk. There's a detail that catches her attention, a pattern that subtly repeats itself in each image.| As she contemplates the potential significance of this finding, a low but firm knock at the door interrupts the stillness. She doesn't respond, her focus unwavering on the photographs. The knocking persists, a second, then a third time. Each knock is deliberately ignored, her attention fixed on the task at hand.| Minutes pass before the door finally opens, admitting an uninvited guest. She perceives his presence without looking up. Two steps in, and she's already cataloged his brown waxed cotton jacket, dark blue jeans, and the leather wingtips, size 9.5. She even notes the small, reddish scar on his left cheek, likely a result of a distracted shaving incident. However, she doesn’t bother to lift her head or acknowledge him in any way.| His prolonged silence is almost admirable, but the fact that he dares to enter her office without invitation stifles any fleeting sense of appreciation. Finally, without shifting her gaze from the photographs, she speaks. 'I don't care about the first part or the second. The only thing I really want to know is why you're still standing in front of me.'| As she talks, her hands remain busy, picking up two more photographs, examining them briefly before setting them back down. Then, with a pen in hand, she scribbles a note on a sheet already filled with her hurried handwriting inside the case folder."
+    },
+    {
+      "name": "The Letters",
+      "type": "Short Story",
+      "description": "'What does it say?' I asked Angie, covering my eyes as I handed the stick to her. She didn't respond right away, which made me part my fingers to look at her. '...Angie?'| 'There are... two lines.' Her face was so serious it made me even more nervous.| 'And that means what?' I took the stick back as if the answer was in it.| Angie picked up the box, 'It's positive. You're pregnant.'| My legs buckled and I felt around the bathroom until I found the toilet seat and sat down. I couldn't even breathe.| 'What you gonna do?' I heard Angie ask, but still, it took me a while to focus on her again.| I shook my head to clear my mind, then looked at her, 'What you mean, what I'm gonna do?'| 'I mean, are you keeping it?'| I frowned, 'What the hell Angie, I'm not getting rid of it, why would I do that?'| 'Well, sorry, but you're not exactly the maternal type.' Angie threw her hands up, defensively.| It was probably true, and I definitely didn't see myself being a mom so soon. I knew for a fact I wasn't ready for it, but hey... maybe that was nature telling me something. Like... maybe my body was ready for it, even if my mind wasn't, or that maybe I should not be counting on condoms alone to prevent pregnancy.| 'So you're telling him?'| Once again, Angie made me frown, 'Of course I'm telling him. He's the father. I can't have a baby without telling him.'| She kind of whistled, 'Man, that's crazy, you guys been seeing each other for what? 2 months? You think there's any chance he'll react well to the news?'| 'Well, he better be glad I'm willing to pop out his child, 'cause I'm damn well not going through this alone. I wouldn't be going through this at all if it wasn't for him.'| 'You were very much a willing participant though...' Angie shrugged.| 'Ugh, I'm going back to bed, I'm done with this day. I want a different one.'"
+    },
+    {
+      "name": "Before he leaves",
+      "type": "Poem",
+      "description": "I want a hug in the morning, I want to run away from home, I want to lie,| I want to laugh at a fight, be partners in crime,| Climb up high and enjoy the taste, the bittersweet of the time.| I want to visit a grave... of a friendship, knowing it will never die.| I want him to hold my hand, share with me all he has, the new and old laughs,| I want to dance, have a party in the rain, to the songs in our heads.| I want to share with him my secrets, my time,| Bury our treasures, where only we'll both find.| I want to look at the sky and promise to never forget,| Promise to be back, and I want a hug goodnight.| I want memories of a good day, instead of a goodbye."
+    }
+  ],
+  "drawings": [
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing01.png"
+    },
+    {
+      "type": "Vector",
+      "photo": "../images/drawing02.jpg"
+    },
+    {
+      "type": "Vector",
+      "photo": "../images/drawing03.jpg"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing04.jpg"
+    },
+    {
+      "type": "Vector",
+      "photo": "../images/drawing05.jpg"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing06.jpg"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing07.jpg"
+    },
+    {
+      "type": "Vector",
+      "photo": "../images/drawing08.png"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing09.jpg"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing10.jpg"
+    },
+    {
+      "type": "Vector",
+      "photo": "../images/drawing11.png"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing12.png"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing13.jpg"
+    },
+    {
+      "type": "Vector",
+      "photo": "../images/drawing14.png"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing15.jpg"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing16.png"
+    },
+    {
+      "type": "Vector",
+      "photo": "../images/drawing17.jpg"
+    },
+    {
+      "type": "Vector",
+      "photo": "../images/drawing18.jpg"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing19.jpg"
+    },
+    {
+      "type": "Hand-drawn",
+      "photo": "../images/drawing20.jpg"
     }
   ]
 }

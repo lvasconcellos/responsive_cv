@@ -2,9 +2,13 @@ import { TFunction } from "i18next";
 
 interface ExtraSectionsProps {
   locale: TFunction<"global">;
+  handleToggleSection: (section: string) => void;
 }
 
-const ExtraSections: React.FC<ExtraSectionsProps> = ({ locale }) => {
+const ExtraSections: React.FC<ExtraSectionsProps> = ({
+  locale,
+  handleToggleSection,
+}) => {
   const languages: Array<string> = Object.keys(
     locale("languages", { returnObjects: true })
   );
@@ -37,12 +41,37 @@ const ExtraSections: React.FC<ExtraSectionsProps> = ({ locale }) => {
 
         <div className="interests__container bd-grid">
           {interests.map((interest, i) => {
+            let section = locale(`interests.${interest}.interest`);
+            switch (locale(`interests.${interest}.interest`)) {
+              case "Pets":
+              case "Animais de Estimação":
+                section = "pets-section";
+                break;
+              case "Reading":
+              case "Ler":
+                section = "reads-section";
+                break;
+              case "Writing":
+              case "Escrever":
+                section = "writings-section";
+                break;
+              case "Drawing":
+              case "Desenhar":
+                section = "drawings-section";
+                break;
+              default:
+                break;
+            }
+
+            console.log("section", section);
+
             return (
               <div className="interests__content" key={i}>
                 <i
                   className={
                     locale(`interests.${interest}.icon`) + " interests__icon"
                   }
+                  onClick={() => handleToggleSection(section)}
                 ></i>
                 <span className="interests__name">
                   {locale(`interests.${interest}.interest`)}
