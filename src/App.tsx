@@ -2,7 +2,7 @@
 import "./assets/css/style.css";
 import Resume from "./components/Resume";
 import ReactGA from "react-ga";
-ReactGA.initialize("G-FVPX9WVXRT");
+ReactGA.initialize("GTM-WJV97852");
 
 function App() {
   return <Resume />;
