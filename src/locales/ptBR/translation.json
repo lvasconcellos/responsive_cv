@@ -238,37 +238,37 @@
       "name": "Sombra",
       "type": "Dog",
       "description": "Meu menino mais animado, ele adora adora brinquedos. Nunca recusa um brinquedo novo.",
-      "photo": "../images/sombra.jpg"
+      "photo": "../img/sombra.jpg"
     },
     {
       "name": "Shaggy",
       "type": "Dog",
       "description": "O mais velho e mais sábio da turma, ele adora cafuné e cochilos.",
-      "photo": "../images/shaggy.jpg"
+      "photo": "../img/shaggy.jpg"
     },
     {
       "name": "Otto",
       "type": "Dog",
       "description": "Não sei de onde ele tira tanto energia. Com 9 anos, ele ainda parece filhote de tudo.",
-      "photo": "../images/otto.jpg"
+      "photo": "../img/otto.jpg"
     },
     {
       "name": "Vinagre",
       "type": "Cat",
       "description": "Meu companheiro de trabalho, nada passa despercebido por ele, especialmente brinquedos. Ele adora brincar de caçar.",
-      "photo": "../images/vinagre.jpg"
+      "photo": "../img/vinagre.jpg"
     },
     {
       "name": "Milu",
       "type": "Cat",
       "description": "Ele jamais perguntaria a um espelho quem é o mais belo de todos. Ele já sabe que é ele.",
-      "photo": "../images/milu.jpg"
+      "photo": "../img/milu.jpg"
     },
     {
       "name": "Canela",
       "type": "Cat",
       "description": "Minha única menina e princesa da casa. Ela tem todos os meninos na palma da pata.",
-      "photo": "../images/canela.jpg"
+      "photo": "../img/canela.jpg"
     }
   ],
   "reads": [
@@ -276,37 +276,37 @@
       "name": "The Power of Habit",
       "type": "Personal Development",
       "description": "Mind blowing read. Didn't change my life yet, but I'm working on it.",
-      "photo": "../images/book01.jpg"
+      "photo": "../img/book01.jpg"
     },
     {
       "name": "Nonviolent Communication",
       "type": "Social Sciences",
       "description": "Perfect opportunity to leave judgement aside and be open to new perspectives.",
-      "photo": "../images/book02.jpg"
+      "photo": "../img/book02.jpg"
     },
     {
       "name": "The Things We Do for Love",
       "type": "Genre Fiction",
       "description": "The story hits my soft spot for unconventional love stories. Some love stories are not about romance.",
-      "photo": "../images/book03.jpg"
+      "photo": "../img/book03.jpg"
     },
     {
       "name": "The Witness",
       "type": "Women's Fiction",
       "description": "Another thing I love in a story is a complex character. So many feelings and so many layer to enjoy.",
-      "photo": "../images/book04.jpg"
+      "photo": "../img/book04.jpg"
     },
     {
       "name": "Clean Code",
       "type": "Programming & Software Development",
       "description": "Did not go through them all yet, but it's a work in progress.",
-      "photo": "../images/book05.jpg"
+      "photo": "../img/book05.jpg"
     },
     {
       "name": "Going Rogue",
       "type": "Mystery",
       "description": "I am addicted to the whole series. Looking for amazing dialog, smart plots and funny characters? Look no further.",
-      "photo": "../images/book06.jpg"
+      "photo": "../img/book06.jpg"
     }
   ],
   "writings": [
@@ -334,83 +334,83 @@
   "drawings": [
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing01.png"
+      "photo": "../img/drawing01.png"
     },
     {
       "type": "Vetor",
-      "photo": "../images/drawing02.jpg"
+      "photo": "../img/drawing02.jpg"
     },
     {
       "type": "Vetor",
-      "photo": "../images/drawing03.jpg"
+      "photo": "../img/drawing03.jpg"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing04.jpg"
+      "photo": "../img/drawing04.jpg"
     },
     {
       "type": "Vetor",
-      "photo": "../images/drawing05.jpg"
+      "photo": "../img/drawing05.jpg"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing06.jpg"
+      "photo": "../img/drawing06.jpg"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing07.jpg"
+      "photo": "../img/drawing07.jpg"
     },
     {
       "type": "Vetor",
-      "photo": "../images/drawing08.png"
+      "photo": "../img/drawing08.png"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing09.jpg"
+      "photo": "../img/drawing09.jpg"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing10.jpg"
+      "photo": "../img/drawing10.jpg"
     },
     {
       "type": "Vetor",
-      "photo": "../images/drawing11.png"
+      "photo": "../img/drawing11.png"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing12.png"
+      "photo": "../img/drawing12.png"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing13.jpg"
+      "photo": "../img/drawing13.jpg"
     },
     {
       "type": "Vetor",
-      "photo": "../images/drawing14.png"
+      "photo": "../img/drawing14.png"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing15.jpg"
+      "photo": "../img/drawing15.jpg"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing16.png"
+      "photo": "../img/drawing16.png"
     },
     {
       "type": "Vetor",
-      "photo": "../images/drawing17.jpg"
+      "photo": "../img/drawing17.jpg"
     },
     {
       "type": "Vetor",
-      "photo": "../images/drawing18.jpg"
+      "photo": "../img/drawing18.jpg"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing19.jpg"
+      "photo": "../img/drawing19.jpg"
     },
     {
       "type": "Feito à mão",
-      "photo": "../images/drawing20.jpg"
+      "photo": "../img/drawing20.jpg"
     }
   ]
 }

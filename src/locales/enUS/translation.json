@@ -238,37 +238,37 @@
       "name": "Sombra",
       "type": "Dog",
       "description": "My most happy-go-lucky boy. Even at 9 years old, he loves to play with his toys.",
-      "photo": "../images/sombra.jpg"
+      "photo": "../img/sombra.jpg"
     },
     {
       "name": "Shaggy",
       "type": "Dog",
       "description": "The oldest and wisest of the bunch. He loves to cuddle and sleep on my lap.",
-      "photo": "../images/shaggy.jpg"
+      "photo": "../img/shaggy.jpg"
     },
     {
       "name": "Otto",
       "type": "Dog",
       "description": "I don't know where he finds the energy to jump around all day. At 9 years old, he's still a puppy at heart.",
-      "photo": "../images/otto.jpg"
+      "photo": "../img/otto.jpg"
     },
     {
       "name": "Vinagre",
       "type": "Cat",
       "description": "My little work-buddy, no typo gets by him and no flying toys either. He's always ready to play fetch.",
-      "photo": "../images/vinagre.jpg"
+      "photo": "../img/vinagre.jpg"
     },
     {
       "name": "Milu",
       "type": "Cat",
       "description": "He would never ask a mirror who's the fairest of them all. He is already confident that he is.",
-      "photo": "../images/milu.jpg"
+      "photo": "../img/milu.jpg"
     },
     {
       "name": "Canela",
       "type": "Cat",
       "description": "My only girl and the queen of the house. She has all the boys in the palm of her paw.",
-      "photo": "../images/canela.jpg"
+      "photo": "../img/canela.jpg"
     }
   ],
   "reads": [
@@ -276,43 +276,43 @@
       "name": "The Power of Habit",
       "type": "Personal Development",
       "description": "Mind blowing read. Didn't change my life yet, but I'm working on it.",
-      "photo": "../images/book01.jpg"
+      "photo": "../img/book01.jpg"
     },
     {
       "name": "Nonviolent Communication",
       "type": "Social Sciences",
       "description": "Perfect opportunity to leave judgement aside and be open to new perspectives.",
-      "photo": "../images/book02.jpg"
+      "photo": "../img/book02.jpg"
     },
     {
       "name": "The Things We Do for Love",
       "type": "Genre Fiction",
       "description": "The story hits my soft spot for unconventional love stories. Some love stories are not about romance.",
-      "photo": "../images/book03.jpg"
+      "photo": "../img/book03.jpg"
     },
     {
       "name": "The Witness",
       "type": "Women's Fiction",
       "description": "Another thing I love in a story is a complex character. So many feelings and so many layer to enjoy.",
-      "photo": "../images/book04.jpg"
+      "photo": "../img/book04.jpg"
     },
     {
       "name": "Clean Code",
       "type": "Programming & Software Development",
       "description": "Did not go through them all yet, but it's a work in progress.",
-      "photo": "../images/book05.jpg"
+      "photo": "../img/book05.jpg"
     },
     {
       "name": "Going Rogue",
       "type": "Mystery",
       "description": "I am addicted to the whole series. Looking for amazing dialog, smart plots and funny characters? Look no further.",
-      "photo": "../images/book06.jpg"
+      "photo": "../img/book06.jpg"
     },
     {
       "name": "Why Has Nobody Told Me This Before?",
       "type": "Psychology & Mental Health",
       "description": "I've in therapy for the past 3 years and this book is a great complement to it. It's a great read for anyone who wants to understand themselves better.",
-      "photo": "../images/book07.jpg"
+      "photo": "../img/book07.jpg"
     }
   ],
   "writings": [
@@ -340,83 +340,83 @@
   "drawings": [
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing01.png"
+      "photo": "../img/drawing01.png"
     },
     {
       "type": "Vector",
-      "photo": "../images/drawing02.jpg"
+      "photo": "../img/drawing02.jpg"
     },
     {
       "type": "Vector",
-      "photo": "../images/drawing03.jpg"
+      "photo": "../img/drawing03.jpg"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing04.jpg"
+      "photo": "../img/drawing04.jpg"
     },
     {
       "type": "Vector",
-      "photo": "../images/drawing05.jpg"
+      "photo": "../img/drawing05.jpg"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing06.jpg"
+      "photo": "../img/drawing06.jpg"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing07.jpg"
+      "photo": "../img/drawing07.jpg"
     },
     {
       "type": "Vector",
-      "photo": "../images/drawing08.png"
+      "photo": "../img/drawing08.png"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing09.jpg"
+      "photo": "../img/drawing09.jpg"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing10.jpg"
+      "photo": "../img/drawing10.jpg"
     },
     {
       "type": "Vector",
-      "photo": "../images/drawing11.png"
+      "photo": "../img/drawing11.png"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing12.png"
+      "photo": "../img/drawing12.png"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing13.jpg"
+      "photo": "../img/drawing13.jpg"
     },
     {
       "type": "Vector",
-      "photo": "../images/drawing14.png"
+      "photo": "../img/drawing14.png"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing15.jpg"
+      "photo": "../img/drawing15.jpg"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing16.png"
+      "photo": "../img/drawing16.png"
     },
     {
       "type": "Vector",
-      "photo": "../images/drawing17.jpg"
+      "photo": "../img/drawing17.jpg"
     },
     {
       "type": "Vector",
-      "photo": "../images/drawing18.jpg"
+      "photo": "../img/drawing18.jpg"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing19.jpg"
+      "photo": "../img/drawing19.jpg"
     },
     {
       "type": "Hand-drawn",
-      "photo": "../images/drawing20.jpg"
+      "photo": "../img/drawing20.jpg"
     }
   ]
 }
