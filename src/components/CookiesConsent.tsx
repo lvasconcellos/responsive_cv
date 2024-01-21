@@ -15,7 +15,7 @@ interface CookiesConsentProps {
 }
 
 const CookiesConsent: React.FC<CookiesConsentProps> = ({ locale }) => {
-  const [showPopup, setShowPopup] = useState(false);
+  const [showConsentSettings, setShowConsentSettings] = useState(false);
   const [analyticsConsent, setAnalyticsConsent] = useState(true);
   const [preferencesConsent, setPreferencesConsent] = useState(true);
   const [marketingConsent, setMarketingConsent] = useState(false);
@@ -27,7 +27,7 @@ const CookiesConsent: React.FC<CookiesConsentProps> = ({ locale }) => {
       preferences: true,
       marketing: true,
     });
-    setShowPopup(false);
+    setShowConsentSettings(false);
   };
 
   const handleAcceptSelection = () => {
@@ -37,7 +37,7 @@ const CookiesConsent: React.FC<CookiesConsentProps> = ({ locale }) => {
       preferences: preferencesConsent,
       marketing: marketingConsent,
     });
-    setShowPopup(false);
+    setShowConsentSettings(false);
   };
 
   const handleRejectAll = () => {
@@ -47,7 +47,7 @@ const CookiesConsent: React.FC<CookiesConsentProps> = ({ locale }) => {
       preferences: false,
       marketing: false,
     });
-    setShowPopup(false);
+    setShowConsentSettings(false);
   };
 
   function setConsent(consent: CookieConsentProps) {
@@ -61,31 +61,47 @@ const CookiesConsent: React.FC<CookiesConsentProps> = ({ locale }) => {
 
     ReactGA.ga("consent", "update", consentMode);
     localStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(consentMode));
-    setShowPopup(false);
+    setShowConsentSettings(false);
   }
 
   useEffect(() => {
-    const consentGiven = localStorage.getItem(COOKIE_CONSENT_KEY) !== null;
+    const consentSettings = localStorage.getItem(COOKIE_CONSENT_KEY);
+    const consentGiven = consentSettings !== null;
     if (!consentGiven) {
-      setShowPopup(true);
+      setShowConsentSettings(true);
+      return;
     }
-  }, [showPopup]);
+
+    const consentSettingsObj = JSON.parse(consentSettings || "{}");
+    setAnalyticsConsent(consentSettingsObj.analytics_storage === "granted");
+    setPreferencesConsent(consentSettingsObj.personalization === "granted");
+    setMarketingConsent(consentSettingsObj.ad_storage === "granted");
+  }, [showConsentSettings]);
 
   return (
     <div>
-      {showPopup && (
+      {!showConsentSettings && (
+        <i
+          className="bx bx-cookie cookie-consent-icon"
+          title={locale("consent.title")}
+          onClick={() => setShowConsentSettings(true)}
+        ></i>
+      )}
+      {showConsentSettings && (
         <div id="cookie-consent-banner" className="cookie-consent-banner">
           <h3>{locale("consent.title")}</h3>
           <p>{locale("consent.description")}</p>
           <button
             id="btn-accept-all"
             className="cookie-consent-button btn-success"
+            type="button"
             onClick={() => handleAcceptAll()}
           >
             {locale("consent.acceptAll")}
           </button>
           <button
             id="btn-accept-some"
+            type="button"
             className="cookie-consent-button btn-outline"
             onClick={() => handleAcceptSelection()}
           >
@@ -93,50 +109,96 @@ const CookiesConsent: React.FC<CookiesConsentProps> = ({ locale }) => {
           </button>
           <button
             id="btn-reject-all"
+            type="button"
             className="cookie-consent-button btn-grayscale"
             onClick={() => handleRejectAll()}
           >
             {locale("consent.rejectAll")}
           </button>
-          <div className="cookie-consent-options">
-            <label>
+          <div className="toggle-wrapper">
+            <label
+              className="toggle"
+              title={locale("consent.necessary")}
+              htmlFor="consent-necessary"
+            >
               <input
+                className="toggle-input"
                 id="consent-necessary"
                 type="checkbox"
                 value="Necessary"
                 checked
                 disabled
               />
-              {locale("consent.necessary")}
+              {""}
+              <span
+                className="toggle-label"
+                data-on={locale("consent.necessary")}
+                data-off={locale("consent.necessary")}
+              ></span>
+              <span className="toggle-handle"></span>
             </label>
-            <label>
+            <label
+              className="toggle"
+              htmlFor="consent-analytics"
+              title={locale("consent.analytics")}
+            >
               <input
+                className="toggle-input"
                 id="consent-analytics"
                 type="checkbox"
                 value="Analytics"
-                checked
+                checked={analyticsConsent}
                 onChange={() => setAnalyticsConsent(!analyticsConsent)}
               />
-              {locale("consent.analytics")}
+              {""}
+              <span
+                className="toggle-label"
+                data-on={locale("consent.analytics")}
+                data-off={locale("consent.analytics")}
+              ></span>
+              <span className="toggle-handle"></span>
             </label>
-            <label>
+            <label
+              className="toggle"
+              htmlFor="consent-preferences"
+              title={locale("consent.preferences")}
+            >
               <input
+                className="toggle-input"
                 id="consent-preferences"
                 type="checkbox"
                 value="Preferences"
-                checked
+                checked={preferencesConsent}
                 onChange={() => setPreferencesConsent(!preferencesConsent)}
               />
-              {locale("consent.preferences")}
+              {""}
+              <span
+                className="toggle-label"
+                data-on={locale("consent.preferences")}
+                data-off={locale("consent.preferences")}
+              ></span>
+              <span className="toggle-handle"></span>
             </label>
-            <label>
+            <label
+              className="toggle"
+              htmlFor="consent-marketing"
+              title={locale("consent.marketing")}
+            >
               <input
+                className="toggle-input"
                 id="consent-marketing"
                 type="checkbox"
                 value="Marketing"
+                checked={marketingConsent}
                 onChange={() => setMarketingConsent(!marketingConsent)}
               />
-              {locale("consent.marketing")}
+              {""}
+              <span
+                className="toggle-label"
+                data-on={locale("consent.marketing")}
+                data-off={locale("consent.marketing")}
+              ></span>
+              <span className="toggle-handle"></span>
             </label>
           </div>
         </div>

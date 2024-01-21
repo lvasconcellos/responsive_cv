@@ -60,7 +60,7 @@
     "title": "Configurações de cookies",
     "description": "O site usa cookies para proporcionar a melhor experiência possível. Eles também fornecem informações sobre o comportamento do usuário para que possamos melhorar constantemente o site para você.",
     "acceptAll": "Aceitar todos",
-    "accept Selection": "Aceitar seleção",
+    "acceptSelection": "Aceitar seleção",
     "rejectAll": "Rejeitar todos",
     "necessary": "Necessário",
     "preferences": "Preferências",

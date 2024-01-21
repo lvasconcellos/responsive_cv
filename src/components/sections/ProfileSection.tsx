@@ -52,12 +52,14 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({
           <div className="home__button">
             <div
               className="home__item locale-button"
+              title="English"
               onClick={() => handleLanguageChange("enUS")}
             >
               EN
             </div>
             <div
               className="home__item locale-button"
+              title="Português do Brasil"
               onClick={() => handleLanguageChange("ptBR")}
             >
               BR

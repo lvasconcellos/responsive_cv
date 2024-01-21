@@ -5,6 +5,7 @@
 @import url("./masonry.css");
 @import url("./notebook.css");
 @import url("./consent.css");
+@import url("./checkbox.css");
 
 /*--============= VARIABLES CSS ==============*/
 :root {
@@ -17,6 +18,7 @@
   --container-color: #f0efef;
   --container-color-alt: #e1e7ef;
   --body-color: #f0efef;
+  --alternative-color: #b1b4b8;
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
   --h1-font-size: 1.5rem;
@@ -667,6 +669,22 @@ img {
   color: var(--text-color-light);
 }
 
+.cookie-consent-icon {
+  position: fixed;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 0;
+  right: 0;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
 /*========== PETS ==========*/
 
 .pets__data {
@@ -708,10 +726,17 @@ img {
 .writings__icon--close,
 .drawings__icon--close {
   position: absolute;
-  top: 1rem;
-  left: 1rem;
-  font-size: 2rem;
-  color: var(--text-color-light);
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 5;
+  left: 0;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
   cursor: pointer;
 }
 

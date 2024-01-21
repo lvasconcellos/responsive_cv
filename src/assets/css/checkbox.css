@@ -1,0 +1,91 @@
+.toggle {
+  width: 9rem;
+  height: 35px;
+  margin: 1rem 1rem;
+}
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.toggle-input {
+  position: absolute;
+  transform: translate3d(5px, 5px, 0);
+}
+
+.toggle-label {
+  position: relative;
+  display: block;
+  height: inherit;
+  font-size: 1rem;
+  background: var(--container-color);
+  border-radius: inherit;
+  border: 1px solid var(--text-color);
+}
+
+.toggle-label:before,
+.toggle-label:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5em;
+  line-height: 1.1;
+}
+
+.toggle-label:before {
+  content: attr(data-off);
+  right: 11px;
+  color: var(--text-color);
+}
+
+.toggle-label:after {
+  content: attr(data-on);
+  left: 11px;
+  color: var(--container-color);
+  opacity: 0;
+}
+
+.toggle-input:checked ~ .toggle-label {
+  background: var(--title-color);
+}
+.toggle-input:checked ~ .toggle-label:before {
+  opacity: 0;
+}
+.toggle-input:checked ~ .toggle-label:after {
+  opacity: 1;
+}
+
+.toggle-handle {
+  position: absolute !important;
+  top: 8px;
+  left: 5px;
+  width: 18px;
+  height: 18px;
+  background: var(--alternative-color);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-handle:before {
+  content: "";
+  top: 50%;
+  left: 50%;
+  position: absolute !important;
+  margin: -6px 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+}
+
+.toggle-label:active ~ .toggle-handle,
+.toggle-handle:active {
+  width: 30px;
+}
+
+.toggle-input:checked ~ .toggle-handle {
+  left: unset;
+  right: 5px;
+}

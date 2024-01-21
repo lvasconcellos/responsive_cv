@@ -60,7 +60,7 @@
     "title": "Cookie settings",
     "description": "This website uses cookies to improve functionality and analyze traffic. You can choose which types of cookies to accept below.",
     "acceptAll": "Accept all",
-    "accept Selection": "Accept selection",
+    "acceptSelection": "Accept selection",
     "rejectAll": "Reject all",
     "necessary": "Necessary",
     "analytics": "Analytics",
