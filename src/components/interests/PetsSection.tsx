@@ -24,17 +24,17 @@ const PetsSection: React.FC<PetsSectionProps> = ({
       <div className="masonry__container">
         {pets.map((pet, i) => {
           return (
-            <div className="masonry__content" key={i}>
+            <article className="masonry__content" key={i}>
               <div className="masonry__item">
                 <img src={locale(`pets.${pet}.photo`)} alt={pet} />
               </div>
               <div className="pets__data">
-                <h3 className="pets__name">{locale(`pets.${pet}.name`)}</h3>
-                <p className="pets__detail">
+                <h2 className="pets__title">{locale(`pets.${pet}.name`)}</h2>
+                <span className="pets__description">
                   {locale(`pets.${pet}.description`)}
-                </p>
+                </span>
               </div>
-            </div>
+            </article>
           );
         })}
       </div>

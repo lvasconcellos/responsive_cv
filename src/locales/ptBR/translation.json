@@ -10,7 +10,7 @@
     "language": "Idiomas",
     "interest": "Interesses",
     "pets": "Animais de estimação",
-    "reads": "Leitura",
+    "books": "Livros",
     "writings": "Escrita",
     "drawings": "Desenhos"
   },
@@ -56,6 +56,17 @@
       "icon": "bx bx-like"
     }
   ],
+  "consent": {
+    "title": "Configurações de cookies",
+    "description": "O site usa cookies para proporcionar a melhor experiência possível. Eles também fornecem informações sobre o comportamento do usuário para que possamos melhorar constantemente o site para você.",
+    "acceptAll": "Aceitar todos",
+    "accept Selection": "Aceitar seleção",
+    "rejectAll": "Rejeitar todos",
+    "necessary": "Necessário",
+    "preferences": "Preferências",
+    "analytics": "Analíticos",
+    "marketing": "Marketing"
+  },
   "profile": {
     "name": "Leticia Vasconcellos",
     "profession": "Desenvolvedora Full stack",
@@ -230,7 +241,7 @@
     },
     {
       "icon": "bx bxs-book-bookmark",
-      "interest": "Ler"
+      "interest": "Livros"
     }
   ],
   "pets": [
@@ -271,42 +282,48 @@
       "photo": "../img/canela.jpg"
     }
   ],
-  "reads": [
+  "books": [
     {
-      "name": "The Power of Habit",
-      "type": "Personal Development",
-      "description": "Mind blowing read. Didn't change my life yet, but I'm working on it.",
+      "name": "O poder do hábito",
+      "type": "Desenvolvimento pessoal",
+      "description": "Livro incrível. A ciência da psicologia humana sempre me fascina.",
       "photo": "../img/book01.jpg"
     },
     {
-      "name": "Nonviolent Communication",
-      "type": "Social Sciences",
-      "description": "Perfect opportunity to leave judgement aside and be open to new perspectives.",
+      "name": "Comunicação Não-Violenta",
+      "type": "Ciências Sociais",
+      "description": "Oportunidade perfeita para deixar o julgamento de lado e abrir a mente para novas perspectivas.",
       "photo": "../img/book02.jpg"
     },
     {
-      "name": "The Things We Do for Love",
-      "type": "Genre Fiction",
-      "description": "The story hits my soft spot for unconventional love stories. Some love stories are not about romance.",
+      "name": "As coisas que fazemos por amor",
+      "type": "Ficção de gênero",
+      "description": "A história toca meu ponto fraco por histórias de amor não convencionais. Algumas histórias de amor não se tratam de romance.",
       "photo": "../img/book03.jpg"
     },
     {
-      "name": "The Witness",
-      "type": "Women's Fiction",
-      "description": "Another thing I love in a story is a complex character. So many feelings and so many layer to enjoy.",
+      "name": "A testemunha",
+      "type": "Ficção Feminina",
+      "description": "Outra coisa que adoro em uma história é personagem complexo. Tantos sentimentos e tantas camadas para curtir.",
       "photo": "../img/book04.jpg"
     },
     {
-      "name": "Clean Code",
-      "type": "Programming & Software Development",
-      "description": "Did not go through them all yet, but it's a work in progress.",
+      "name": "Código Limpo",
+      "type": "Programação e Desenvolvimento de Software",
+      "description": "Eu gosto muito de código limpo. Adoro ler sobre e adoro escrever.",
       "photo": "../img/book05.jpg"
     },
     {
       "name": "Going Rogue",
-      "type": "Mystery",
-      "description": "I am addicted to the whole series. Looking for amazing dialog, smart plots and funny characters? Look no further.",
+      "type": "Mistério",
+      "description": "Estou viciada na série toda. Está procurando por diálogos incríveis, enredos inteligentes e personagens engraçados? Não precisa procurar mais. A série Stephanie Plum é leitura obrigatória.",
       "photo": "../img/book06.jpg"
+    },
+    {
+      "name": "Por que ninguém me disse isso antes?",
+      "type": "Psicologia e saúde mental",
+      "description": "Estou fazendo terapia há três anos e este livro é um ótimo complemento. É uma ótima leitura para qualquer pessoa que queira se entender melhor.",
+      "photo": "../img/book07.jpg"
     }
   ],
   "writings": [

@@ -5,7 +5,7 @@ import MainContent from "./MainContent";
 import ScrollTopButton from "./ScrollTopButton";
 import CookiesConsent from "./CookiesConsent";
 import PetsSection from "./interests/PetsSection";
-import ReadsSection from "./interests/ReadsSection";
+import BooksSection from "./interests/BooksSection";
 import WritingsSection from "./interests/WritingsSection";
 import DrawingsSection from "./interests/DrawingsSection";
 
@@ -62,8 +62,8 @@ function Resume() {
   switch (showSection) {
     case "pets-section":
       return <PetsSection key="pets-section" {...sectionProps} />;
-    case "reads-section":
-      return <ReadsSection key="reads-section" {...sectionProps} />;
+    case "books-section":
+      return <BooksSection key="books-section" {...sectionProps} />;
     case "writings-section":
       return <WritingsSection key="writings-section" {...sectionProps} />;
     case "drawings-section":
@@ -71,7 +71,7 @@ function Resume() {
     default:
       return (
         <div>
-          <CookiesConsent key="cookies-consent" />
+          <CookiesConsent key="cookies-consent" locale={locale} />
           <Header key="header" locale={locale} />
           {showSection === "pets-section" ? (
             <PetsSection {...sectionProps} />

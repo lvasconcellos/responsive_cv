@@ -47,9 +47,9 @@ const ExtraSections: React.FC<ExtraSectionsProps> = ({
               case "Animais de Estimação":
                 section = "pets-section";
                 break;
-              case "Reading":
-              case "Ler":
-                section = "reads-section";
+              case "Books":
+              case "Livros":
+                section = "books-section";
                 break;
               case "Writing":
               case "Escrever":

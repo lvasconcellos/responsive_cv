@@ -1,3 +1,4 @@
+import { TFunction } from "i18next";
 import { useState, useEffect } from "react";
 import ReactGA from "react-ga";
 
@@ -9,7 +10,11 @@ interface CookieConsentProps {
   marketing: boolean;
 }
 
-const CookiesConsent = () => {
+interface CookiesConsentProps {
+  locale: TFunction<"global">;
+}
+
+const CookiesConsent: React.FC<CookiesConsentProps> = ({ locale }) => {
   const [showPopup, setShowPopup] = useState(false);
   const [analyticsConsent, setAnalyticsConsent] = useState(true);
   const [preferencesConsent, setPreferencesConsent] = useState(true);
@@ -70,32 +75,28 @@ const CookiesConsent = () => {
     <div>
       {showPopup && (
         <div id="cookie-consent-banner" className="cookie-consent-banner">
-          <h3>Cookie settings</h3>
-          <p>
-            We use cookies to provide you with the best possible experience.
-            They also allow us to analyze user behavior in order to constantly
-            improve the website for you.
-          </p>
+          <h3>{locale("consent.title")}</h3>
+          <p>{locale("consent.description")}</p>
           <button
             id="btn-accept-all"
             className="cookie-consent-button btn-success"
             onClick={() => handleAcceptAll()}
           >
-            Accept All
+            {locale("consent.acceptAll")}
           </button>
           <button
             id="btn-accept-some"
             className="cookie-consent-button btn-outline"
             onClick={() => handleAcceptSelection()}
           >
-            Accept Selection
+            {locale("consent.acceptSelection")}
           </button>
           <button
             id="btn-reject-all"
             className="cookie-consent-button btn-grayscale"
             onClick={() => handleRejectAll()}
           >
-            Reject All
+            {locale("consent.rejectAll")}
           </button>
           <div className="cookie-consent-options">
             <label>
@@ -106,7 +107,7 @@ const CookiesConsent = () => {
                 checked
                 disabled
               />
-              Necessary
+              {locale("consent.necessary")}
             </label>
             <label>
               <input
@@ -116,7 +117,7 @@ const CookiesConsent = () => {
                 checked
                 onChange={() => setAnalyticsConsent(!analyticsConsent)}
               />
-              Analytics
+              {locale("consent.analytics")}
             </label>
             <label>
               <input
@@ -126,7 +127,7 @@ const CookiesConsent = () => {
                 checked
                 onChange={() => setPreferencesConsent(!preferencesConsent)}
               />
-              Preferences
+              {locale("consent.preferences")}
             </label>
             <label>
               <input
@@ -135,7 +136,7 @@ const CookiesConsent = () => {
                 value="Marketing"
                 onChange={() => setMarketingConsent(!marketingConsent)}
               />
-              Marketing
+              {locale("consent.marketing")}
             </label>
           </div>
         </div>

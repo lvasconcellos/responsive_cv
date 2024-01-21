@@ -10,7 +10,7 @@
     "language": "Languages",
     "interest": "Interests",
     "pets": "Pets",
-    "reads": "Reading",
+    "books": "Books",
     "writings": "Writings",
     "drawings": "Drawings"
   },
@@ -56,6 +56,17 @@
       "icon": "bx bx-like"
     }
   ],
+  "consent": {
+    "title": "Cookie settings",
+    "description": "This website uses cookies to improve functionality and analyze traffic. You can choose which types of cookies to accept below.",
+    "acceptAll": "Accept all",
+    "accept Selection": "Accept selection",
+    "rejectAll": "Reject all",
+    "necessary": "Necessary",
+    "analytics": "Analytics",
+    "preferences": "Preferences",
+    "marketing": "Marketing"
+  },
   "profile": {
     "name": "Leticia Vasconcellos",
     "profession": "Full stack Developer",
@@ -230,7 +241,7 @@
     },
     {
       "icon": "bx bxs-book-bookmark",
-      "interest": "Reading"
+      "interest": "Books"
     }
   ],
   "pets": [
@@ -271,17 +282,17 @@
       "photo": "../img/canela.jpg"
     }
   ],
-  "reads": [
+  "books": [
     {
       "name": "The Power of Habit",
       "type": "Personal Development",
-      "description": "Mind blowing read. Didn't change my life yet, but I'm working on it.",
+      "description": "Mind-blowing book. The science of human psychology is always fascinating to me.",
       "photo": "../img/book01.jpg"
     },
     {
       "name": "Nonviolent Communication",
       "type": "Social Sciences",
-      "description": "Perfect opportunity to leave judgement aside and be open to new perspectives.",
+      "description": "Perfect opportunity to leave judgment aside and be open to new perspectives.",
       "photo": "../img/book02.jpg"
     },
     {
@@ -293,25 +304,25 @@
     {
       "name": "The Witness",
       "type": "Women's Fiction",
-      "description": "Another thing I love in a story is a complex character. So many feelings and so many layer to enjoy.",
+      "description": "Another thing I love in a story is the complex character. So many feelings and so many layers to enjoy.",
       "photo": "../img/book04.jpg"
     },
     {
       "name": "Clean Code",
       "type": "Programming & Software Development",
-      "description": "Did not go through them all yet, but it's a work in progress.",
+      "description": "I'm a sucker for clean code. I love to read about it and I love to write it.",
       "photo": "../img/book05.jpg"
     },
     {
       "name": "Going Rogue",
       "type": "Mystery",
-      "description": "I am addicted to the whole series. Looking for amazing dialog, smart plots and funny characters? Look no further.",
+      "description": "I am addicted to the whole series. Looking for amazing dialog, smart plots, and funny characters? Look no further. The Stephanie Plum series is a must-read.",
       "photo": "../img/book06.jpg"
     },
     {
       "name": "Why Has Nobody Told Me This Before?",
       "type": "Psychology & Mental Health",
-      "description": "I've in therapy for the past 3 years and this book is a great complement to it. It's a great read for anyone who wants to understand themselves better.",
+      "description": "I've been in therapy for the past 3 years and this book is a great complement to it. It's a great read for anyone who wants to understand themselves better.",
       "photo": "../img/book07.jpg"
     }
   ],

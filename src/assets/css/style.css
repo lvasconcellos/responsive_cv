@@ -674,9 +674,13 @@ img {
   width: 100%;
   left: 0;
   bottom: -10%;
-  padding: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   transition: 0.5s;
   opacity: 0;
+  margin-inline: auto;
+  box-shadow: 0 0.8rem 2.4rem hsla(0, 0%, 0%, 0.15);
+  background-color: var(--container-color-alt);
 }
 
 .pets__data p {
@@ -685,12 +689,8 @@ img {
   border-radius: 0.2rem;
 }
 
-.masonry__content:hover .masonry__item {
-  filter: brightness(0.4);
-}
-
 .masonry__content:hover .pets__data {
-  bottom: 0;
+  bottom: 1rem;
   opacity: 1;
   transition: 0.5s;
 }
@@ -704,7 +704,7 @@ img {
 }
 
 .pets__icon--close,
-.reads__icon--close,
+.books__icon--close,
 .writings__icon--close,
 .drawings__icon--close {
   position: absolute;
@@ -715,9 +715,9 @@ img {
   cursor: pointer;
 }
 
-/*========== READS ==========*/
+/*========== BOOKS ==========*/
 
-.reads__data {
+.books__data {
   position: absolute;
   width: 100%;
   left: 0;
@@ -731,19 +731,21 @@ img {
   background-color: var(--container-color-alt);
 }
 
-.masonry__content:hover .reads__data {
+.masonry__content:hover .books__data {
   bottom: 1rem;
   opacity: 1;
   transition: 0.5s;
 }
 
-.reads__description {
+.books__description,
+.pets__description {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 0.25rem;
 }
 
-.reads__title {
+.books__title,
+.pets__title {
   font-size: var(--h3-font-size);
   font-weight: 500;
   color: var(--title-color);
