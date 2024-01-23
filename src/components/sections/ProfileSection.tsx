@@ -52,6 +52,7 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({
           <div className="home__button">
             <div
               className="home__item locale-button"
+              id="locale-en"
               title="English"
               onClick={() => handleLanguageChange("enUS")}
             >
@@ -59,6 +60,7 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({
             </div>
             <div
               className="home__item locale-button"
+              id="locale-br"
               title="Português do Brasil"
               onClick={() => handleLanguageChange("ptBR")}
             >
@@ -91,6 +93,7 @@ const ProfileSection: React.FC<ProfileSectionProps> = ({
 
             <div>
               <a
+                id="resume-button-mobile"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => handleDownloadPDF()}

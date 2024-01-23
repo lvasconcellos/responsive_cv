@@ -68,6 +68,7 @@ const ExtraSections: React.FC<ExtraSectionsProps> = ({
                   className={
                     locale(`interests.${interest}.icon`) + " interests__icon"
                   }
+                  id={section}
                   onClick={() => handleToggleSection(section)}
                 ></i>
                 <span className="interests__name">
