@@ -69,14 +69,14 @@
   },
   "profile": {
     "name": "Leticia Vasconcellos",
-    "profession": "Full stack Developer",
+    "profession": "Full Stack C# on .NET Engineer | Software Developer | Angular.JS | Typescript | MediatR | SQL | xUnit | Git | GitHub",
     "location": "Taboão da Serra - SP, Brazil",
     "location_icon": "bx bxs-map-pin",
     "email": "leticiavasconcellos@yahoo.com",
     "email_icon": "bx bx-envelope",
     "phone": "+55 11 9 4844-2463",
     "phone_icon": "bx bx-phone",
-    "summary": "I'm a Full-Stack Developer with over 15 years of experience, focusing on .NET and JavaScript frameworks. My career has been dedicated to building both web and desktop applications, with a strong foundation in database management.| I value the principles of Agile and Scrum, which guide my approach to development – practical, efficient, and always evolving. Continual learning and adapting to new technologies are integral parts of my professional growth.| My objective is to develop solutions that are not only effective but also user-friendly. In collaboration with teams, I aim to contribute to projects that make a real difference."
+    "summary": "Full Stack C# on .NET Engineer with over 15 years of experience in software development, focusing on .NET and JavaScript frameworks.| Expertise in building web and desktop applications, as well as strong skills in database management, especially MS SQL and MySQL.| Committed to continuous learning, I acquired skills in various technologies, including Oracle, RabbitMQ, MassTransit and DevOps aspects.| Reinforced my skills in .NET and Angular at Stefanini Brasil, and improved skills in front-end and back-end at Agência Molla and Grupo EASE.| I value Agile and Scrum, seeking to create impactful solutions and contribute to significant projects. I am ready to collaborate with professionals and organizations aligned with my principles and passion for technology."
   },
   "social": [
     {
@@ -102,23 +102,7 @@
     "institution": "Descomplica Faculdade Digital",
     "course": "Bachelor’s degree in data science",
     "date": "2023 - 2025",
-    "details": [
-      {
-        "studies": "Business Communication • Applications and Systems Development • Design Thinking and Agile Methodologies",
-        "course": "Developer Thinking",
-        "date": "Nov 2023"
-      },
-      {
-        "studies": "Coaching and Career Planning • Integrative Practice for Data Intelligence",
-        "course": "Programming and Communication",
-        "date": "Sep 2023"
-      },
-      {
-        "studies": "Computer Architecture • Applied Differential Equations",
-        "course": "Math Computing Basics",
-        "date": "May 2023"
-      }
-    ]
+    "details": []
   },
   "skills": [
     {
@@ -151,19 +135,19 @@
       "company": "Stefanini Brasil",
       "role": "Software Developer",
       "date": "March 2022 - Present",
-      "description": "Engaged in full-stack development, specializing in .NET and Angular, and employing TypeScript for enhanced Angular projects.| Acquired experience with advanced message queue technologies, such as RabbitMQ and MassTransit, for efficient data handling and service communication.| Utilized MediatR for improved communication patterns in REST API developments, contributing to more efficient and maintainable code.| Participated in DevOps activities, including CI/CD pipeline maintenance and vulnerability scanning, to uphold high standards of application security and reliability.| Managed Oracle databases, focusing on optimizing data structures and query performance, thereby improving system functionality and efficiency.| Introduced to Agile Scrum methodology, enhancing my project management skills and team collaboration.| Utilized TFS Dashboard and Jira for efficient project tracking and management, streamlining the workflow and task organization.| Maintained project documentation using Confluence, ensuring that project knowledge was well-organized and accessible to the team."
+      "description": "Engaged in Full Stack development, specializing in .NET and Angular, and using TypeScript to improve Angular projects.| Gained experience with messaging technologies such as RabbitMQ and MassTransit for efficient data handling and service communication.| Used MediatR to improve communication standards in REST API developments.| Participated in DevOps activities, including maintaining CI/CD pipelines and vulnerability analysis.| Managed Oracle databases, focusing on optimizing data structures and query performance.| Interacted with teams from other countries, communicating in English."
     },
     {
       "company": "Agência Molla",
       "role": "Software Developer",
       "date": "March 2021 - March 2022",
-      "description": "Developed multiple websites employing Razor, JavaScript, C#, MS SQL, and also worked with jQuery. These projects improved my front-end development capabilities and reinforced my back-end skills.| Maintained and upgraded ASP MVC applications, gaining deeper insights into modernizing and enhancing legacy systems.| Acquired practical experience with cloud technologies, IIS, and automation through Power Automate, adding to my versatility as a developer."
+      "description": "Developed websites using Razor, JavaScript, C# and MS SQL, and also worked with jQuery.| Improved legacy ASP MVC applications and explored cloud and automation technologies with Power Automate, improving my front-end and back-end skills."
     },
     {
       "company": "Grupo Ease",
       "role": "Software Developer",
       "date": "Jul 2019 - March 2021",
-      "description": "Enhanced desktop ERP and ASP MVC systems, focusing on improving user interface and functionality. This role advanced my system analysis and design capabilities.| Gained valuable experience in ETL processes with PostgreSQL and Azure databases, integrating Talend and Data Factory, which enhanced my data processing skills. | First introduction to working in a team environment and was introduced to the Kanban methodology, which greatly improved my project management and collaborative skills."
+      "description": "Improved ERP and ASP MVC systems, focusing on UI and functionality.| Gained valuable experience in ETL processes with PostgreSQL and Azure, integrating Talend and Data Factory.| First instroduction working in a technical team and using the Kanban methodology."
     },
     {
       "company": "LTS - Soluções Tecnológicas",
@@ -175,10 +159,31 @@
       "company": "CIVS - Assessoria Sindical",
       "role": "Jr Software Developer",
       "date": "June 2005 - Ago 2010",
-      "description": "Transitioned from an office assistant to a developer role, addressing the company's need for a customized system, marking my initial step into software development.| Learned to work with MS Office, mastering advanced features in Excel and Access, which played a crucial role in my early development tasks.| Gained skills in analyzing and validating data, understanding the importance of accuracy and integrity in software solutions.| Developed foundational skills in software development, including migrating the custom system from Access VBA to VB.NET and MS SQL, laying the groundwork for my future career in technology."
+      "description": "Worked with MS Office, mastering advanced features in Excel and Access, essential in my first development tasks.| Gained skills in analyzing and validating data, understanding the importance of accuracy and integrity in software solutions.| Developed fundamental skills in software development, including custom system migration from Access VBA to VB.NET and MS SQL, laying the foundation for my future career in technology."
     }
   ],
   "certification": [
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "studies": "Business Communication • Applications and Systems Development • Design Thinking and Agile Methodologies",
+      "course": "Developer Thinking",
+      "date": "Nov 2023",
+      "description": "Part of the Data Science program, these courses focused on enhancing my communication skills, understanding the principles of agile methodologies, and developing a problem-solving mindset."
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "studies": "Coaching and Career Planning • Integrative Practice for Data Intelligence",
+      "course": "Programming and Communication",
+      "date": "Sep 2023",
+      "description": "Part of the Data Science program, these courses focused on developing my coaching and career planning skills, as well as enhancing my understanding of data intelligence and its applications."
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "studies": "Computer Architecture • Applied Differential Equations",
+      "course": "Math Computing Basics",
+      "date": "May 2023",
+      "description": "Part of the Data Science program, these courses focused on developing my understanding of computer architecture and applied differential equations, enhancing my mathematical and computational skills."
+    },
     {
       "institution": "Udemy",
       "course": ".NET Microservices: CQRS & Event Sourcing with Kafka",

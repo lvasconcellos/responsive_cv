@@ -76,7 +76,7 @@
     "email_icon": "bx bx-envelope",
     "phone_icon": "bx bx-phone",
     "phone": "11 9 4844-2463",
-    "summary": "Sou uma Desenvolvedora Full-Stack com mais de 15 anos de experiência, focando em frameworks .NET e JavaScript. Minha carreira tem sido dedicada à construção de aplicações web e desktop, com uma sólida base em gerenciamento de banco de dados.| Valorizo os princípios do Agile e Scrum, que orientam minha abordagem no desenvolvimento – prática, eficiente e sempre em evolução. A aprendizagem contínua e adaptação a novas tecnologias são partes integrantes do meu crescimento profissional.| Meu objetivo é desenvolver soluções que sejam não apenas eficazes, mas também amigáveis ao usuário. Em colaboração com equipes, busco contribuir em projetos que realmente façam a diferença."
+    "summary": "Full Stack C# .NET Engineer com mais de 15 anos de experiência em desenvolvimento de software, com foco em frameworks .NET e JavaScript.| Experiência na construção de aplicações web e desktop, bem como fortes habilidades em gerenciamento de banco de dados, especialmente MS SQL e MySQL.| Comprometida com o aprendizado contínuo, adquiri habilidades em diversas tecnologias, incluindo aspectos Oracle, RabbitMQ, MassTransit e DevOps.| Reforcei minhas habilidades em .NET e Angular na Stefanini Brasil, e aprimorei habilidades em front-end e back-end na Agência Molla e Grupo EASE.| Valorizo Agile e Scrum, buscando criar soluções impactantes e contribuir com projetos significativos. Estou pronta para colaborar com profissionais e organizações alinhadas aos meus princípios e paixão por tecnologia."
   },
   "social": [
     {
@@ -100,25 +100,9 @@
   ],
   "education": {
     "institution": "Descomplica Faculdade Digital",
-    "course": "Gradução em Ciência de Dados",
+    "course": "Graduação em Ciência de Dados",
     "date": "2023 - 2025",
-    "details": [
-      {
-        "studies": "Comunicação Empresarial • Criação de Aplicações e Sistemas • Design Thinking e Metodologias Ágeis",
-        "course": "Developer Thinking",
-        "date": "Nov 2023"
-      },
-      {
-        "studies": "Coaching e Planejamento de Carreira • Prática Integradora para Dados Inteligentes",
-        "course": "Programming and Communication",
-        "date": "Set 2023"
-      },
-      {
-        "studies": "Arquitetura de Computadores • Matemática Diferencial Aplicada",
-        "course": "Math Computing Basics",
-        "date": "Mai 2023"
-      }
-    ]
+    "details": []
   },
   "skills": [
     {
@@ -151,7 +135,7 @@
       "company": "Stefanini Brasil",
       "role": "Analista de desenvolvimento de Sistemas",
       "date": "Março 2022 - Presente",
-      "description": "Estive envolvida em desenvolvimento full-stack, me especializando em .NET e Angular, e usando TypeScript para aprimorar projetos Angular.| Adquiri experiência com tecnologias de mensageria como RabbitMQ e MassTransit para manipulação eficiente de dados e comunicação de serviços.| Utilizei MediatR para melhorar padrões de comunicação em desenvolvimentos de API REST.| Participei de atividades de DevOps, incluindo manutenção de pipelines CI/CD e análise de vulnerabilidades.| Gerenciei bancos de dados Oracle, focando na otimização de estruturas de dados e desempenho de consultas."
+      "description": "Estive envolvida em desenvolvimento Full Stack, me especializando em .NET e Angular, e usando TypeScript para aprimorar projetos Angular.| Adquiri experiência com tecnologias de mensageria como RabbitMQ e MassTransit para manipulação eficiente de dados e comunicação de serviços.| Utilizei MediatR para melhorar padrões de comunicação em desenvolvimentos de API REST.| Participei de atividades de DevOps, incluindo manutenção de pipelines CI/CD e análise de vulnerabilidades.| Gerenciei bancos de dados Oracle, focando na otimização de estruturas de dados e desempenho de consultas.| Interagi com equipes de outros países, comunicando-se em inglês."
     },
     {
       "company": "Agência Molla",
@@ -175,10 +159,31 @@
       "company": "CIVS - Assessoria Sindical",
       "role": "Analista de desenvolvimento de Sistemas",
       "date": "Jun 2005 - Jun 2009",
-      "description": "Evolui de assistente de escritório para desenvolvedora, atendendo à necessidade da empresa por um sistema personalizado. Isso marcou meu primeiro passo no desenvolvimento de software.| Aprendi a trabalhar com o MS Office, dominando recursos avançados no Excel e Access, essenciais nas minhas primeiras tarefas de desenvolvimento.| Adquiri habilidades em analisar e validar dados, compreendendo a importância da precisão e integridade em soluções de software.| Desenvolvi habilidades fundamentais em desenvolvimento de software, incluindo a migração do sistema personalizado de Access VBA para VB.NET e MS SQL, estabelecendo a base para minha carreira futura em tecnologia."
+      "description": "Trabalhei com MS Office, dominando recursos avançados em Excel e Access, essenciais em minhas primeiras tarefas de desenvolvimento.| Adquiri habilidades em análise e validação de dados, entendendo a importância da precisão e integridade nas soluções de software.| Desenvolvi habilidades fundamentais em desenvolvimento de software, incluindo migração de sistemas customizados de Access VBA para VB.NET e MS SQL, estabelecendo as bases para minha futura carreira em tecnologia."
     }
   ],
   "certification": [
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "studies": "Comunicação Empresarial • Criação de Aplicações e Sistemas • Design Thinking e Metodologias Ágeis",
+      "course": "Developer Thinking",
+      "date": "Nov 2023",
+      "description": "Parte da graduação em Ciência de Dados, esses cursos se concentraram em aprimorar minhas habilidades de comunicação, design thinking e metodologias ágeis, me preparando para colaborar efetivamente em equipes de desenvolvimento."
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "studies": "Coaching e Planejamento de Carreira • Prática Integradora para Dados Inteligentes",
+      "course": "Programming and Communication",
+      "date": "Set 2023",
+      "description": "Parte da graduação em Ciência de Dados, esses cursos se concentraram no desenvolvimento de minhas habilidades de coaching e planejamento de carreira e na aplicação prática de conceitos de dados em cenários do mundo real."
+    },
+    {
+      "institution": "Descomplica Faculdade Digital",
+      "studies": "Arquitetura de Computadores • Matemática Diferencial Aplicada",
+      "course": "Math Computing Basics",
+      "date": "Mai 2023",
+      "description": "Parte da graduação em Ciência de Dados, esses cursos se concentraram em aprimorar minha compreensão de arquitetura de computadores e matemática aplicada, fornecendo uma base sólida para minha carreira em tecnologia."
+    },
     {
       "institution": "Udemy",
       "course": ".NET Microservices: CQRS & Event Sourcing with Kafka",
